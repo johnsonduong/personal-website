@@ -6,9 +6,12 @@ import Experience from "./pages/Experience";
 import Education from "./pages/Education";
 import Contact from "./pages/Contact";
 
+import Navbar from "./components/Navbar";
+
 function App() {
   return (
     <BrowserRouter>
+      <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
