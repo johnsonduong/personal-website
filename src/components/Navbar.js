@@ -13,7 +13,7 @@ import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
 
-const pages = ["Home", "Projects", "Experience", "Education", "Contact"];
+const pages = ["home", "about", "projects", "experience", "contact"];
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -28,11 +28,12 @@ const Navbar = () => {
   };
 
   const handleNav = (event) => {
-    event.currentTarget.textContent === "Home" ? navigate(`/`) : navigate(`/${event.currentTarget.textContent}`);
+    event.currentTarget.textContent === "home" ? navigate(`/`) : navigate(`/${event.currentTarget.textContent}`);
+    console.log(event.currentTarget.classList);
   };
 
   return (
-    <AppBar position="static" sx={{ backgroundColor: "white", boxShadow: 0, pt: 4, mb: 10 }}>
+    <AppBar position="static" sx={{ backgroundColor: "transparent", boxShadow: 0, pt: 4, mb: 10 }}>
       <Container disableGutters maxWidth="lg" sx={{ border: "none" }}>
         <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
           <Typography variant="h4" color="initial">
