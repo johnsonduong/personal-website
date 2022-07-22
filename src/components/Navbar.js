@@ -32,8 +32,8 @@ const Navbar = () => {
   };
 
   return (
-    <AppBar position="static" sx={{ backgroundColor: "white", boxShadow: 0, px: 5, my: 3 }}>
-      <Container maxWidth="xl">
+    <AppBar position="static" sx={{ backgroundColor: "white", boxShadow: 0, pt: 4, mb: 10 }}>
+      <Container disableGutters maxWidth="lg" sx={{ border: "none" }}>
         <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
           <Typography variant="h4" color="initial">
             Johnson Duong
