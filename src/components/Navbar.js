@@ -32,13 +32,23 @@ const Navbar = () => {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar position="static" sx={{ backgroundColor: "white", boxShadow: 0, px: 5, my: 3 }}>
       <Container maxWidth="xl">
-        <Toolbar disableGutters>
-          <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
+        <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
+          <Typography variant="h4" color="initial">
+            Johnson Duong
+          </Typography>
+
+          <Box sx={{ display: "flex", justifyContent: "space-evenly" }}>
+            {pages.map((page) => (
+              <Button key={page} onClick={handleNav} sx={{ my: 3, color: "initial" }}>
+                {page}
+              </Button>
+            ))}
+          </Box>
 
           {/* Small Window */}
-          <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
+          {/* <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
             <IconButton size="large" aria-label="account of current user" aria-controls="menu-appbar" aria-haspopup="true" onClick={handleOpenNavMenu} color="inherit">
               <MenuIcon />
             </IconButton>
@@ -66,16 +76,7 @@ const Navbar = () => {
                 </MenuItem>
               ))}
             </Menu>
-          </Box>
-
-          {/* Large Window */}
-          <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
-            {pages.map((page) => (
-              <Button key={page} onClick={handleNav} sx={{ my: 2, color: "white", display: "block" }}>
-                {page}
-              </Button>
-            ))}
-          </Box>
+          </Box> */}
         </Toolbar>
       </Container>
     </AppBar>

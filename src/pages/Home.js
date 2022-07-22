@@ -4,7 +4,9 @@ import Container from "@mui/material/Container";
 const Home = () => {
   return (
     <div>
-      <Container maxWidth="lg">Hello</Container>
+      <Container maxWidth="lg" sx={{ border: "solid" }}>
+        Hello
+      </Container>
     </div>
   );
 };
