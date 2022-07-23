@@ -42,7 +42,7 @@ const Navbar = () => {
 
           <Box sx={{ display: "flex", justifyContent: "space-evenly" }}>
             {pages.map((page) => (
-              <Button key={page} onClick={handleNav} sx={{ my: 3, color: "initial" }}>
+              <Button key={page} onClick={handleNav} sx={{ my: 3, color: "initial", px: 2, py: 1 }}>
                 <Typography variant="body1" color="initial">
                   {page}
                 </Typography>

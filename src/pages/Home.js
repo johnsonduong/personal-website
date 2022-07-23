@@ -8,12 +8,12 @@ import { styled } from "@mui/material/styles";
 const Home = () => {
   return (
     <div className="Home">
-      <Container maxWidth="lg" sx={{ border: "solid", flexGrow: 1 }}>
+      <Container maxWidth="lg" sx={{ border: "none", flexGrow: 1, mt: 2 }}>
         <Box sx={{ display: "flex", border: "none", mb: 5 }}>
-          <Box sx={{ width: "40%", mr: 5 }}>
+          <Box sx={{ display: "flex", justifyContent: "flex-end", width: "45%", mr: 5 }}>
             <img src={require("../images/profile.png")} alt="Me!" style={{ width: "25em" }} />
           </Box>
-          <Box sx={{}}>
+          <Box sx={{ mt: 10 }}>
             <Typography variant="h2" component="h1" color="initial" sx={{ fontWeight: "bold", mb: 3 }}>
               {"I'm Johnson"}
             </Typography>
