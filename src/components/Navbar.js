@@ -36,14 +36,16 @@ const Navbar = () => {
     <AppBar position="static" sx={{ backgroundColor: "transparent", boxShadow: 0, pt: 4, mb: 10 }}>
       <Container disableGutters maxWidth="lg" sx={{ border: "none" }}>
         <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
-          <Typography variant="h4" color="initial">
-            Johnson Duong
+          <Typography variant="h5" color="initial" fontWeight="bold">
+            {"JOHNSON DUONG"}
           </Typography>
 
           <Box sx={{ display: "flex", justifyContent: "space-evenly" }}>
             {pages.map((page) => (
               <Button key={page} onClick={handleNav} sx={{ my: 3, color: "initial" }}>
-                {page}
+                <Typography variant="body1" color="initial">
+                  {page}
+                </Typography>
               </Button>
             ))}
           </Box>
