@@ -16,6 +16,19 @@ const About = () => {
         <Typography variant="h2" component="h1" color="initial" sx={{ fontWeight: "bold", mb: 3 }}>
           {"About"}
         </Typography>
+
+        <Typography variant="body1" color="initial">
+          👋 Hey! I'm Johnson
+        </Typography>
+        <Typography variant="body1" color="initial">
+          📍 Software Developer Intern @ ELL Technologies
+        </Typography>
+        <Typography variant="body1" color="initial">
+          🏫 Computer Engineering Student @ University of Waterloo
+        </Typography>
+        <Typography variant="body1" color="initial">
+          👀 Currently looking for internships
+        </Typography>
         <Box sx={{ border: "none" }}>
           <Typography variant="h4" component="h1" color="initial" sx={{ fontWeight: "bold" }}>
             {"Languages & Tools"}
