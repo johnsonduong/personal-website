@@ -19,7 +19,7 @@ const Experience = () => {
         heading="Software Developer"
         date="May 2022 - Aug 2022"
         info="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, veniam officiis cum doloremque earum quo dicta impedit nobis aperiam illo."
-        backgroundColor="lightgray"
+        backgroundColor="#d9d9d9"
       ></Card>
       <Card
         title="Toyota Motors"
@@ -33,7 +33,7 @@ const Experience = () => {
         heading="R&D Engineer"
         date="Sep 2020 - Dec 2020"
         info="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, veniam officiis cum doloremque earum quo dicta impedit nobis aperiam illo."
-        backgroundColor="lightgray"
+        backgroundColor="#d9d9d9"
       ></Card>
     </div>
   );

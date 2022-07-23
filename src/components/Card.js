@@ -10,7 +10,7 @@ const Card = (props) => {
     <Box backgroundColor={props.backgroundColor} sx={{ flexGrow: 1, height: "60vh" }}>
       <Container maxWidth="lg" sx={{ display: "flex", flexDirection: "row", flexFlow: 1, justifyContent: "flex-start", p: 10 }}>
         <Box sx={{ width: "50%", mr: 15 }}>
-          <Typography variant="h2" color="initial" sx={{ mb: 2 }}>
+          <Typography variant="h3" color="initial" sx={{ mb: 2 }}>
             {props.title}
           </Typography>
           <Typography variant="h5" color="initial">

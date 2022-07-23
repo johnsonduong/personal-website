@@ -14,7 +14,7 @@ const About = () => {
     <div className="About">
       <Container maxWidth="lg" sx={{ border: "solid", flexGrow: 1 }}>
         <Typography variant="h2" component="h1" color="initial" sx={{ fontWeight: "bold", mb: 3 }}>
-          {"About Me"}
+          {"About"}
         </Typography>
         <Box sx={{ border: "none" }}>
           <Typography variant="h4" component="h1" color="initial" sx={{ fontWeight: "bold" }}>

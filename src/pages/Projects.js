@@ -14,9 +14,14 @@ const Projects = () => {
           {"Projects"}
         </Typography>
       </Container>
-      <Card title="PixArt" heading="An online drawing application" info="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, veniam officiis cum doloremque earum quo dicta impedit nobis aperiam illo." backgroundColor="lightgray"></Card>
-      <Card title="Monkey Business" heading="A mock landing page" info="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, veniam officiis cum doloremque earum quo dicta impedit nobis aperiam illo." backgroundColor="transparent"></Card>
-      <Card title="PixArt" heading="An online drawing application" info="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, veniam officiis cum doloremque earum quo dicta impedit nobis aperiam illo." backgroundColor="lightgray"></Card>
+      <Card title="PixArt" heading="An online drawing application" info="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, veniam officiis cum doloremque earum quo dicta impedit nobis aperiam illo." backgroundColor="#d9d9d9"></Card>
+      <Card
+        title="Rock Paper Scissors"
+        heading="Play against a computer"
+        info="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, veniam officiis cum doloremque earum quo dicta impedit nobis aperiam illo."
+        backgroundColor="transparent"
+      ></Card>
+      <Card title="Monkey Business" heading="A mock landing page" info="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, veniam officiis cum doloremque earum quo dicta impedit nobis aperiam illo." backgroundColor="#d9d9d9"></Card>
     </div>
   );
 };
