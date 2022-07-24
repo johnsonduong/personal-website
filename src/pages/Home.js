@@ -10,10 +10,7 @@ const Home = () => {
     <div className="Home">
       <Container maxWidth="lg" sx={{ border: "none", flexGrow: 1, mt: 2 }}>
         <Box sx={{ display: "flex", border: "none", mb: 5 }}>
-          {/* <Box sx={{ display: "flex", justifyContent: "flex-end", width: "45%", mr: 5 }}>
-            <img src={require("../images/profile.png")} alt="Me!" style={{ width: "25em" }} />
-          </Box> */}
-          <Box sx={{ mt: 10 }}>
+          <Box sx={{ mt: 14 }}>
             <Typography variant="h1" component="h1" color="initial" sx={{ fontWeight: "bold", mb: 2, px: 20 }}>
               {"Johnson Duong"}
             </Typography>

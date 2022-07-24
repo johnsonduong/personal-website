@@ -3,7 +3,7 @@ import "react-multi-carousel/lib/styles.css";
 
 const TechStackIcon = (props) => {
   return (
-    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", border: "dashed lightgray", width: "100px", height: "100px" }}>
+    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", width: "100px", height: "100px" }}>
       <img src={props.src} alt={props.label} style={{ width: "4em" }} />
       <figcaption style={{ fontSize: "12px", marginTop: "8px" }}>{props.label}</figcaption>
     </div>
@@ -13,25 +13,28 @@ const TechStackIcon = (props) => {
 const responsive = {
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
-    items: 10,
+    items: 9,
     slidesToSlide: 1, // optional, default to 1.
+    partialVisibilityGutter: 40,
   },
   tablet: {
     breakpoint: { max: 1024, min: 464 },
     items: 2,
     slidesToSlide: 2, // optional, default to 1.
+    partialVisibilityGutter: 30,
   },
   mobile: {
     breakpoint: { max: 464, min: 0 },
     items: 1,
     slidesToSlide: 1, // optional, default to 1.
+    partialVisibilityGutter: 30,
   },
 };
 
 const SkillsCarousel = () => {
   return (
     <div>
-      <Carousel responsive={responsive} infinite={true} autoPlay={true} autoPlaySpeed={3000}>
+      <Carousel responsive={responsive} infinite={true} autoPlay={true} autoPlaySpeed={3000} arrows={false}>
         <TechStackIcon src="https://img.icons8.com/color/60/000000/javascript--v1.png" label="JAVASCRIPT" />
         <TechStackIcon src="https://img.icons8.com/color/60/000000/html-5--v1.png" label="HTML5" />
         <TechStackIcon src="https://img.icons8.com/color/60/000000/css3.png" label="CSS3" />

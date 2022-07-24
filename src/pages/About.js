@@ -15,17 +15,17 @@ const About = () => {
         </Typography>
         <Box sx={{ display: "flex", border: "none", mb: 5 }}>
           <Box sx={{ mt: 10 }}>
-            <Typography variant="h6" color="initial">
-              👋 Hey! I'm Johnson
+            <Typography variant="h5" color="initial">
+              {"👋 Hey! I'm Johnson"}
             </Typography>
-            <Typography variant="h6" color="initial">
-              📍 Software Developer Intern @ ELL Technologies
+            <Typography variant="h5" color="initial">
+              {"📍 Software Developer Intern @ ELL Technologies"}
             </Typography>
-            <Typography variant="h6" color="initial">
-              🏫 Computer Engineering Student @ University of Waterloo
+            <Typography variant="h5" color="initial">
+              {"🏫 Computer Engineering Student @ University of Waterloo"}
             </Typography>
-            <Typography variant="h6" color="initial">
-              👀 Currently looking for internships
+            <Typography variant="h5" color="initial">
+              {"👀 Currently looking for internships"}
             </Typography>
           </Box>
           <Box sx={{ display: "flex", justifyContent: "flex-start", width: "20%", ml: 20 }}>
@@ -34,8 +34,8 @@ const About = () => {
         </Box>
 
         <Box sx={{ border: "none" }}>
-          <Typography variant="h4" component="h1" color="initial" sx={{ fontWeight: "bold" }}>
-            {"Languages & Tools"}
+          <Typography variant="h4" component="h1" color="initial" sx={{ fontWeight: "bold", mb: 5 }}>
+            {"My Tech Stack"}
           </Typography>
           <SkillsCarousel />
         </Box>
