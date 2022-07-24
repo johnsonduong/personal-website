@@ -7,22 +7,16 @@ const ContactForm = () => {
       <Grid>
         <Card style={{ minWidth: 450, padding: "20px 5px", backgroundColor: "transparent", boxShadow: "none" }}>
           <CardContent>
-            <Typography variant="body2" component="p" gutterBottom>
-              Let's get in touch! You can contact me by filling out this form.
+            <Typography variant="body1" component="p" gutterBottom>
+              Let's get in touch! Whether you have a question or just want to chat, you can message me here and I will get back to you.
             </Typography>
             <form>
               <Grid container spacing={1}>
-                <Grid xs={12} sm={6} item>
-                  <TextField placeholder="Enter first name" label="First Name" variant="outlined" fullWidth required />
-                </Grid>
-                <Grid xs={12} sm={6} item>
-                  <TextField placeholder="Enter last name" label="Last Name" variant="outlined" fullWidth required />
+                <Grid xs={12} item>
+                  <TextField placeholder="Enter your name" label="Name" variant="outlined" fullWidth required />
                 </Grid>
                 <Grid item xs={12}>
                   <TextField type="email" placeholder="Enter email" label="Email" variant="outlined" fullWidth required />
-                </Grid>
-                <Grid item xs={12}>
-                  <TextField type="number" placeholder="Enter phone number" label="Phone" variant="outlined" fullWidth />
                 </Grid>
                 <Grid item xs={12}>
                   <TextField label="Message" multiline rows={4} placeholder="Type your message here" variant="outlined" fullWidth required />

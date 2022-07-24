@@ -10,15 +10,15 @@ const Home = () => {
     <div className="Home">
       <Container maxWidth="lg" sx={{ border: "none", flexGrow: 1, mt: 2 }}>
         <Box sx={{ display: "flex", border: "none", mb: 5 }}>
-          <Box sx={{ display: "flex", justifyContent: "flex-end", width: "45%", mr: 5 }}>
+          {/* <Box sx={{ display: "flex", justifyContent: "flex-end", width: "45%", mr: 5 }}>
             <img src={require("../images/profile.png")} alt="Me!" style={{ width: "25em" }} />
-          </Box>
+          </Box> */}
           <Box sx={{ mt: 10 }}>
-            <Typography variant="h2" component="h1" color="initial" sx={{ fontWeight: "bold", mb: 3 }}>
-              {"I'm Johnson"}
+            <Typography variant="h1" component="h1" color="initial" sx={{ fontWeight: "bold", mb: 2, px: 20 }}>
+              {"Johnson Duong"}
             </Typography>
-            <Typography variant="h4" component="p" color="initial" sx={{ fontWeight: "regular" }}>
-              {"A Software Developer"}
+            <Typography variant="h4" component="h1" color="initial" sx={{ fontWeight: "bold", mb: 0, px: 20 }}>
+              {"Software Developer"}
             </Typography>
           </Box>
         </Box>

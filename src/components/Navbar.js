@@ -37,7 +37,7 @@ const Navbar = () => {
       <Container disableGutters maxWidth="lg" sx={{ border: "none" }}>
         <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
           <Typography variant="h5" color="initial" fontWeight="bold">
-            {"JOHNSON DUONG"}
+            {"<jduong/>"}
           </Typography>
 
           <Box sx={{ display: "flex", justifyContent: "space-evenly" }}>
