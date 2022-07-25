@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Home from "./pages/Home";
@@ -28,20 +28,21 @@ const App = () => {
 
   useEffect(() => {
     setCurrentPage(location.pathname);
-    currentPage === "/" ? document.querySelector(".App").classList.add("show-background") : document.querySelector(".App").classList.remove("show-background");
+    currentPage === "/home" ? document.querySelector(".App").classList.add("show-background") : document.querySelector(".App").classList.remove("show-background");
   });
 
   return (
     <ThemeProvider theme={theme}>
       <div className="App">
         <AnimatedCursor innerSize={8} outerSize={25} color="50, 50, 50" outerAlpha={0.3} innerScale={0.7} outerScale={3} />
-        <Navbar />
+        <Navbar currentPage={currentPage} />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<Navigate to="/home" replace />} />
         </Routes>
         <Footer />
       </div>
