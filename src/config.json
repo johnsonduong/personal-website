@@ -1,0 +1,47 @@
+{
+    "about": [
+        "👋 Hey! I'm Johnson", "🧑🏻‍💻 Software Developer Intern @ ELL Technologies", "🎓 Computer Engineering 2026 @ University of Waterloo", "🏫 Previously Mechanical Engineering 2024 (But Transferred!)", "🔍 Currently looking for internships"
+    ],
+
+    "projects": [
+        {
+            "title": "PixArt",
+            "date": "",
+            "description": "An online drawing application",
+            "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, veniam officiis cum doloremque earum quo dicta impedit nobis aperiam illo."
+        },
+        {
+            "title": "Rock Paper Scissors",
+            "date": "",
+            "description": "Play against a computer",
+            "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, veniam officiis cum doloremque earum quo dicta impedit nobis aperiam illo."
+        },
+        {
+            "title": "Monkey Business",
+            "date": "",
+            "description": "A mock landing page",
+            "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, veniam officiis cum doloremque earum quo dicta impedit nobis aperiam illo."
+        }
+    ],
+
+    "experience": [
+        {
+            "company": "ELL Technologies",
+            "jobTitle": "Software Developer Intern",
+            "date": "May 2022 - Aug 2022",
+            "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, veniam officiis cum doloremque earum quo dicta impedit nobis aperiam illo."
+        },
+        {
+            "company": "Toyota Motors",
+            "jobTitle": "Facilities Engineer Intern",
+            "date": "May 2021 - Aug 2021",
+            "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, veniam officiis cum doloremque earum quo dicta impedit nobis aperiam illo."
+        },
+        {
+            "company": "UWaterloo",
+            "jobTitle": "R&D Engineer Intern",
+            "date": "Sep 2020 - Dec 2020",
+            "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, veniam officiis cum doloremque earum quo dicta impedit nobis aperiam illo."
+        }
+    ]
+}

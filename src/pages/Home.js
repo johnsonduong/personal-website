@@ -7,9 +7,9 @@ import Typed from "react-typed";
 const Home = () => {
   return (
     <div className="Home">
-      <Container maxWidth="lg" sx={{ border: "none", flexGrow: 1, mt: 2 }}>
-        <Box sx={{ display: "flex", border: "none", mb: 5 }}>
-          <Box sx={{ mt: 14 }}>
+      <Container maxWidth="lg" sx={{ display: "flex", justifyContent: "center", alignItems: "center", border: "none", flexGrow: 1, height: "100%" }}>
+        <Box sx={{ border: "none", mb: 25 }}>
+          <Box>
             <Typography variant="h1" component="h1" color="initial" sx={{ fontWeight: "bold", mb: 2, px: 20 }}>
               {"Johnson Duong"}
             </Typography>

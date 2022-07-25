@@ -7,8 +7,8 @@ import { styled } from "@mui/material/styles";
 
 const Card = (props) => {
   return (
-    <Box backgroundColor={props.backgroundColor}>
-      <Container maxWidth="lg" sx={{ display: "flex", alignItems: "center", height: "400px" }}>
+    <Box className="card">
+      <Container maxWidth="lg" sx={{ display: "flex", alignItems: "center", height: "500px" }}>
         <Box sx={{ width: "70%", py: 5 }}>
           <Typography variant="h3" color="initial" sx={{ mb: 1 }}>
             {props.title}
@@ -23,12 +23,20 @@ const Card = (props) => {
             {props.info}
           </Typography>
         </Box>
-        <Box>
-          <img src={require("../images/profile.png")} alt="" style={{ width: "200px" }} />
+        <Box sx={{ ml: 10 }}>
+          <img src={props.imagePath} alt="" style={{ width: "200px" }} />
         </Box>
       </Container>
     </Box>
   );
+};
+
+Card.defaultProps = {
+  title: "Title",
+  heading: "Heading",
+  date: "Date",
+  info: "Info",
+  imagePath: require("../images/profile.png"),
 };
 
 export default Card;

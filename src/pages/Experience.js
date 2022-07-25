@@ -5,8 +5,19 @@ import Typography from "@mui/material/Typography";
 import IconButton from "@mui/material/IconButton";
 import { styled } from "@mui/material/styles";
 import Card from "../components/Card";
+import config from "../config.json";
+
+import firstImage from "../images/ell-logo.png";
+import secondImage from "../images/toyota-logo.png";
+import thirdImage from "../images/uwaterloo-logo.png";
+
+const imageArray = [firstImage, secondImage, thirdImage];
 
 const Experience = () => {
+  const experiences = config.experience.map((experience, index) => {
+    return <Card title={experience.company} heading={experience.jobTitle} date={experience.date} info={experience.info} backgroundColor={experience.backgroundColor} imagePath={imageArray[index]} />;
+  });
+
   return (
     <div className="Experience">
       <Container maxWidth="lg" sx={{ border: "none", flexGrow: 1 }}>
@@ -14,27 +25,7 @@ const Experience = () => {
           {"Experience"}
         </Typography>
       </Container>
-      <Card
-        title="ELL Technologies"
-        heading="Software Developer"
-        date="May 2022 - Aug 2022"
-        info="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, veniam officiis cum doloremque earum quo dicta impedit nobis aperiam illo."
-        backgroundColor="#d7ebff"
-      ></Card>
-      <Card
-        title="Toyota Motors"
-        heading="Facilities Engineer"
-        date="May 2021 - Aug 2021"
-        info="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, veniam officiis cum doloremque earum quo dicta impedit nobis aperiam illo."
-        backgroundColor="transparent"
-      ></Card>
-      <Card
-        title="UWaterloo"
-        heading="R&D Engineer"
-        date="Sep 2020 - Dec 2020"
-        info="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, veniam officiis cum doloremque earum quo dicta impedit nobis aperiam illo."
-        backgroundColor="#d7ebff"
-      ></Card>
+      {experiences}
     </div>
   );
 };
