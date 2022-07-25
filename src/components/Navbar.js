@@ -13,9 +13,11 @@ import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
 
+import { styled } from "@mui/material/styles";
+
 const pages = ["home", "about", "projects", "experience", "contact"];
 
-const Navbar = () => {
+const Navbar = (props) => {
   const navigate = useNavigate();
   const [anchorElNav, setAnchorElNav] = React.useState(null);
 
@@ -29,9 +31,8 @@ const Navbar = () => {
 
   const handleNav = (event) => {
     event.currentTarget.textContent === "home" ? navigate(`/`) : navigate(`/${event.currentTarget.textContent}`);
-    event.currentTarget.textContent === "home" && document.querySelector(".App").classList.add("show-background");
-    event.currentTarget.textContent !== "home" && document.querySelector(".App").classList.remove("show-background");
-    console.log(event.currentTarget.classList);
+    // event.currentTarget.textContent === "home" && document.querySelector(".App").classList.add("show-background");
+    // event.currentTarget.textContent !== "home" && document.querySelector(".App").classList.remove("show-background");
   };
 
   return (
@@ -44,8 +45,21 @@ const Navbar = () => {
 
           <Box sx={{ display: "flex", justifyContent: "space-evenly" }}>
             {pages.map((page) => (
-              <Button key={page} onClick={handleNav} sx={{ my: 3, color: "initial", px: 2, py: 1 }}>
-                <Typography variant="body1" color="initial">
+              <Button
+                key={page}
+                onClick={handleNav}
+                sx={{
+                  my: 3,
+                  color: "initial",
+                  px: 2,
+                  py: 1,
+                  "&:hover, &.Mui-focusVisible": {
+                    backgroundColor: "black",
+                    color: "white",
+                  },
+                }}
+              >
+                <Typography variant="body1" color="inherit" sx={{ fontWeight: "bold" }}>
                   {page}
                 </Typography>
               </Button>
