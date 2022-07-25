@@ -21,9 +21,9 @@ const theme = createTheme({
 
 function App() {
   return (
-    <div className="App">
-      <ThemeProvider theme={theme}>
-        <BrowserRouter>
+    <ThemeProvider theme={theme}>
+      <BrowserRouter>
+        <div className="App show-background">
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
@@ -33,9 +33,9 @@ function App() {
             <Route path="/contact" element={<Contact />} />
           </Routes>
           <Footer />
-        </BrowserRouter>
-      </ThemeProvider>
-    </div>
+        </div>
+      </BrowserRouter>
+    </ThemeProvider>
   );
 }
 

@@ -17,13 +17,13 @@ const About = () => {
               {"👋 Hey! I'm Johnson"}
             </Typography>
             <Typography variant="h5" color="initial">
-              {"📍 Software Developer Intern @ ELL Technologies"}
+              {"🧑🏻‍💻 Software Developer Intern @ ELL Technologies"}
             </Typography>
             <Typography variant="h5" color="initial">
               {"🏫 Computer Engineering Student @ University of Waterloo"}
             </Typography>
             <Typography variant="h5" color="initial">
-              {"👀 Currently looking for internships"}
+              {"🔍 Currently looking for internships"}
             </Typography>
           </Box>
           <Box sx={{ display: "flex", justifyContent: "flex-start", width: "20%", ml: 20 }}>

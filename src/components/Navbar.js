@@ -29,6 +29,8 @@ const Navbar = () => {
 
   const handleNav = (event) => {
     event.currentTarget.textContent === "home" ? navigate(`/`) : navigate(`/${event.currentTarget.textContent}`);
+    event.currentTarget.textContent === "home" && document.querySelector(".App").classList.add("show-background");
+    event.currentTarget.textContent !== "home" && document.querySelector(".App").classList.remove("show-background");
     console.log(event.currentTarget.classList);
   };
 

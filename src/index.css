@@ -18,10 +18,14 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+}
+
+.show-background {
   background-image: url("./images/blob-scene.svg");
   background-repeat: no-repeat;
   background-size: cover
 }
+
 
 .Home, .About, .Projects, .Experience, .Contact {
   flex-grow: 1;
