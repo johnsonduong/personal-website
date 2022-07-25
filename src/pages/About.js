@@ -26,8 +26,8 @@ const About = () => {
               {"🔍 Currently looking for internships"}
             </Typography>
           </Box>
-          <Box sx={{ display: "flex", justifyContent: "flex-start", width: "20%", ml: 20 }}>
-            <img src={require("../images/profile.png")} alt="Me!" style={{ width: "15em" }} />
+          <Box sx={{ display: "flex", justifyContent: "flex-start", width: "20%", ml: 15 }}>
+            <img src={require("../images/profile1.png")} alt="Me!" style={{ width: "18em" }} />
           </Box>
         </Box>
 

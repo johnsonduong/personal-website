@@ -8,6 +8,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import AnimatedCursor from "react-animated-cursor";
 
 const theme = createTheme({
   typography: {
@@ -24,6 +25,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <BrowserRouter>
         <div className="App show-background">
+          <AnimatedCursor innerSize={8} outerSize={25} color="50, 50, 50" outerAlpha={0.3} innerScale={0.7} outerScale={3} />
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
