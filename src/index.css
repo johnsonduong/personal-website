@@ -36,7 +36,8 @@ body {
 }
 
 .card:nth-child(even) {
-  background-color: #d7ebff;
+  background-color: black;
+  color: white;
 }
 
 code {

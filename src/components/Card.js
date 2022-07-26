@@ -10,16 +10,16 @@ const Card = (props) => {
     <Box className="card">
       <Container maxWidth="lg" sx={{ display: "flex", alignItems: "center", height: "500px" }}>
         <Box sx={{ width: "70%", py: 5 }}>
-          <Typography variant="h3" color="initial" sx={{ mb: 1 }}>
+          <Typography variant="h3" color="inherit" sx={{ mb: 1 }}>
             {props.title}
           </Typography>
-          <Typography variant="h5" color="initial">
+          <Typography variant="h5" color="inherit">
             {props.heading}
           </Typography>
-          <Typography variant="body1" color="initial" sx={{ mb: 3 }}>
+          <Typography variant="body1" color="inherit" sx={{ mb: 3 }}>
             {props.date}
           </Typography>
-          <Typography variant="body1" color="initial">
+          <Typography variant="body1" color="inherit">
             {props.info}
           </Typography>
         </Box>

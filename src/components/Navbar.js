@@ -23,10 +23,12 @@ const NavButton = styled(Button)(({ theme }) => ({
   px: 2,
   py: 1,
   color: "initial",
+  boxShadow: "none",
+  backgroundColor: "transparent",
   borderRadius: "0",
   "&:hover, &.Mui-focusVisible": {
-    backgroundColor: "gray",
-    color: "white",
+    backgroundColor: "lightgray",
+    color: "black",
   },
 }));
 
@@ -57,7 +59,7 @@ const Navbar = (props) => {
 
           <Box sx={{ display: "flex", justifyContent: "space-evenly" }}>
             {pages.map((page) => (
-              <NavButton key={page} onClick={handleNav} sx={{ backgroundColor: `${location.pathname === `/${page}` && "black"}`, color: `${location.pathname === `/${page}` && "white"}` }}>
+              <NavButton variant="contained" key={page} onClick={handleNav} sx={{ mx: 0.5, backgroundColor: `${location.pathname === `/${page}` && "black"}`, color: `${location.pathname === `/${page}` && "white"}` }}>
                 <Typography variant="body1" color="inherit" sx={{ fontWeight: "bold" }}>
                   {page}
                 </Typography>
