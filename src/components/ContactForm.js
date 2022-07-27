@@ -9,7 +9,7 @@ const CustomTextField = styled(TextField)(({ theme }) => ({
   },
 }));
 
-const ContactForm = () => {
+const ContactForm = (props) => {
   return (
     <div>
       <Grid>
@@ -18,16 +18,16 @@ const ContactForm = () => {
             <Typography variant="h6" component="p" gutterBottom>
               Let's get in touch! Whether you have a question or just want to chat, you can message me here.
             </Typography>
-            <form>
+            <form onSubmit={props.handleSubmit}>
               <Grid container spacing={1.5}>
                 <Grid xs={12} item>
-                  <CustomTextField placeholder="Enter your name" label="Name" variant="filled" fullWidth required />
+                  <CustomTextField placeholder="Enter your name" label="Name" variant="filled" fullWidth required onChange={(e) => props.setName(e.target.value)} />
                 </Grid>
                 <Grid item xs={12}>
-                  <CustomTextField type="email" placeholder="Enter email" label="Email" variant="filled" fullWidth required />
+                  <CustomTextField type="email" placeholder="Enter email" label="Email" variant="filled" fullWidth required onChange={(e) => props.setEmail(e.target.value)} />
                 </Grid>
                 <Grid item xs={12}>
-                  <CustomTextField label="Message" multiline rows={4} placeholder="Type your message here" variant="filled" fullWidth required />
+                  <CustomTextField label="Message" multiline rows={4} placeholder="Type your message here" variant="filled" fullWidth required onChange={(e) => props.setMessage(e.target.value)} />
                 </Grid>
                 <Grid item xs={12}>
                   <Button
