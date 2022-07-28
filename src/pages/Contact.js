@@ -12,6 +12,8 @@ const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [submitSuccess, setSubmitSuccess] = useState(false);
+  const [submitError, setSubmitError] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -20,12 +22,25 @@ const Contact = () => {
       name: name,
       email: email,
       message: message,
-    }).then(() => {
-      e.target.reset();
-      setName("");
-      setEmail("");
-      setMessage("");
-    });
+    })
+      .then(() => {
+        e.target.reset();
+        setName("");
+        setEmail("");
+        setMessage("");
+        setSubmitSuccess(true);
+
+        setTimeout(() => {
+          setSubmitSuccess(false);
+        }, 5000);
+      })
+      .catch((error) => {
+        setSubmitError(true);
+
+        setTimeout(() => {
+          setSubmitError(false);
+        }, 5000);
+      });
   };
 
   return (
@@ -34,7 +49,7 @@ const Contact = () => {
         <Typography variant="h2" component="h1" color="initial" sx={{ fontWeight: "bold", mb: 3 }}>
           {"Contact"}
         </Typography>
-        <ContactForm handleSubmit={handleSubmit} setName={setName} setEmail={setEmail} setMessage={setMessage} />
+        <ContactForm handleSubmit={handleSubmit} setName={setName} setEmail={setEmail} setMessage={setMessage} submitSuccess={submitSuccess} setSubmitSuccess={setSubmitSuccess} submitError={submitError} setSubmitError={setSubmitError} />
       </Container>
     </div>
   );

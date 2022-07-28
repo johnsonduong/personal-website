@@ -1,5 +1,7 @@
 import React from "react";
 import { Typography, Grid, TextField, Button, Card, CardContent } from "@mui/material";
+import Alert from "@mui/material/Alert";
+import { TransitionGroup, CSSTransition } from "react-transition-group";
 
 import { styled } from "@mui/material/styles";
 
@@ -55,6 +57,17 @@ const ContactForm = (props) => {
                 </Grid>
               </Grid>
             </form>
+
+            <CSSTransition in={props.submitSuccess} timeout={5000} classNames="alert">
+              <div className="success-alert">
+                <strong>Success!</strong> Your message has been submitted.
+              </div>
+            </CSSTransition>
+            <CSSTransition in={props.submitError} timeout={5000} classNames="alert">
+              <div className="error-alert">
+                <strong>Error!</strong> Sorry, something went wrong. Please try again later.
+              </div>
+            </CSSTransition>
           </CardContent>
         </Card>
       </Grid>

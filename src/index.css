@@ -39,6 +39,43 @@ body {
   background-color: lightgray;
 }
 
+.success-alert {
+  display: none;
+  opacity: 0;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #0bc581;
+  color: white;
+}
+
+.error-alert {
+  display: none;
+  opacity: 0;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f44336;
+  color: white;
+}
+
+.alert-enter {
+  display: block;
+  opacity: 0;
+}
+.alert-enter-active {
+  display: block;
+  opacity: 1;
+  transition: opacity 300ms;
+}
+.alert-exit {
+  display: block;
+  opacity: 1;
+}
+.alert-exit-active {
+  display: block;
+  opacity: 0;
+  transition: opacity 300ms;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
