@@ -53,14 +53,14 @@ const Navbar = (props) => {
     <AppBar position="static" sx={{ backgroundColor: "transparent", boxShadow: 0, pt: 4, mb: 10 }}>
       <Container disableGutters maxWidth="lg" sx={{ border: "none" }}>
         <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
-          <Typography variant="h5" color="initial" fontWeight="bold">
+          <Typography variant="h5" color="initial" fontWeight="bold" sx={{ fontSize: { xs: 15, sm: 20, md: 20, lg: 24, xl: 24 } }}>
             {"<jduong/>"}
           </Typography>
 
           <Box sx={{ display: "flex", justifyContent: "space-evenly" }}>
             {pages.map((page) => (
               <NavButton variant="contained" key={page} onClick={handleNav} sx={{ mx: 0.5, backgroundColor: `${location.pathname === `/${page}` && "black"}`, color: `${location.pathname === `/${page}` && "white"}` }}>
-                <Typography variant="body1" color="inherit" sx={{ fontWeight: "bold" }}>
+                <Typography variant="body1" color="inherit" sx={{ fontWeight: "bold", fontSize: { xs: 14, sm: 14, md: 14, lg: 16, xl: 16 } }}>
                   {page}
                 </Typography>
               </NavButton>

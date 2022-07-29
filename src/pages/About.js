@@ -8,7 +8,7 @@ import config from "../config.json";
 const About = () => {
   const biography = config.about.map((bulletPoint) => {
     return (
-      <Typography variant="h5" color="initial">
+      <Typography variant="h5" color="initial" sx={{ fontSize: { xs: 16, sm: 16, md: 20, lg: 22, xl: 22 } }}>
         {bulletPoint}
       </Typography>
     );
@@ -17,18 +17,18 @@ const About = () => {
   return (
     <div className="About">
       <Container maxWidth="lg" sx={{ border: "none", flexGrow: 1 }}>
-        <Typography variant="h2" component="h1" color="initial" sx={{ fontWeight: "bold", mb: 3 }}>
+        <Typography variant="h2" component="h1" color="initial" sx={{ fontWeight: "bold", mb: 3, fontSize: { xs: 40, sm: 40, md: 50, lg: 60, xl: 60 } }}>
           {"About"}
         </Typography>
-        <Box sx={{ display: "flex", border: "none", mb: 5 }}>
-          <Box sx={{ mt: 10 }}>{biography}</Box>
-          <Box sx={{ display: "flex", justifyContent: "flex-start", width: "20%", ml: 15 }}>
-            <img src={require("../images/profile1.png")} alt="Me!" style={{ width: "18em" }} />
+        <Box sx={{ display: "flex", alignItems: "center", border: "none", mb: 5 }}>
+          <Box>{biography}</Box>
+          <Box sx={{ display: "flex", justifyContent: "center", flexGrow: 1 }}>
+            <img src={require("../images/profile1.png")} className="about-photo" alt="Me!" />
           </Box>
         </Box>
 
         <Box sx={{ border: "none" }}>
-          <Typography variant="h4" component="h1" color="initial" sx={{ fontWeight: "bold", mb: 5 }}>
+          <Typography variant="h4" component="h1" color="initial" sx={{ fontWeight: "bold", mb: 5, fontSize: { xs: 25, sm: 25, md: 30, lg: 35, xl: 35 } }}>
             {"My Tech Stack"}
           </Typography>
           <SkillsCarousel />

@@ -24,12 +24,49 @@ body {
   justify-content: flex-start;
 }
 
-.show-background {
-  background-image: url("./images/blob-scene.svg");
-  background-repeat: no-repeat;
-  background-size: cover
+@media screen and (min-width: 0px) {
+  .about-photo {
+    width: 10em; height: auto;
+  }
+  .tech-icon {
+    transform: scale(0.8);
+  }
 }
 
+@media screen and (min-width: 600px) {
+  .about-photo {
+    width: 12em; height: auto;
+  }
+  .tech-icon {
+    transform: scale(0.9);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .about-photo {
+    width: 15em; height: auto;
+  }
+  .tech-icon {
+    transform: scale(0.95);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .about-photo {
+    width: 18em; height: auto;
+  }
+  .tech-icon {
+    transform: scale(1);
+  }
+}
+
+
+.show-background {
+  background: url("./images/blob-scene.svg") no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
 
 .Home, .About, .Projects, .Experience, .Contact {
   flex-grow: 1;
