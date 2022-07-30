@@ -15,7 +15,7 @@ const imageArray = [firstImage, secondImage, thirdImage];
 
 const Projects = () => {
   const projects = config.projects.map((project, index) => {
-    return <Card className="card" title={project.title} heading={project.description} meta={project.meta} info={project.info} imagePath={imageArray[index]} />;
+    return <Card className="card" title={project.title} heading={project.description} meta={project.meta} info={project.info} imagePath={imageArray[index]} buttons={project.buttons} />;
   });
 
   return (

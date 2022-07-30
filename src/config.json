@@ -8,37 +8,43 @@
             "title": "Personal Website",
             "description": "This website!",
             "meta": "React, MaterialUI, Firebase, JavaScript, HTML, CSS",
-            "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, veniam officiis cum doloremque earum quo dicta impedit nobis aperiam illo."
+            "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, veniam officiis cum doloremque earum quo dicta impedit nobis aperiam illo.",
+            "buttons": "Live GitHub"
         },
         {
             "title": "PixArt",
             "description": "An online drawing application",
             "meta": "Vanilla JavaScript, HTML, CSS - No libraries!",
-            "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, veniam officiis cum doloremque earum quo dicta impedit nobis aperiam illo."
+            "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, veniam officiis cum doloremque earum quo dicta impedit nobis aperiam illo.",
+            "buttons": "Live GitHub"
         },
         {
             "title": "Rock Paper Scissors",
             "meta": "Vanilla JavaScript, HTML, CSS - No libraries!",
             "description": "A simple computer game",
-            "info": "My first project-based introduction to JavaScript."
+            "info": "My first project-based introduction to JavaScript.",
+            "buttons": "Live GitHub"
         },
         {
             "title": "Monkey Business",
             "description": "A mock landing page",
             "meta": "Vanilla HTML and CSS - No libraries!",
-            "info": "This is my first ever webpage! Creating this landing page was a great way for me to learn the fundamentals of HTML and CSS."
+            "info": "This is my first ever webpage! Creating this landing page was a great way for me to learn the fundamentals of HTML and CSS.",
+            "buttons": "Live GitHub"
         },
         {
             "title": "Bike Frame and Welding Jig",
             "description": "Engineering a bike frame from scratch",
             "meta": "SolidWorks, FEA, Machining, Assembly",
-            "info": "This was one of the projects I had working as an R&D Engineer Intern at UWaterloo. The purpose of this project was to create a bike frame from scratch to learn the fundamentals of bike and jig design. Overall, it was a great way to strengthen my mechanical engineering skills. "
+            "info": "This was one of the projects I had working as an R&D Engineer Intern at UWaterloo. The purpose of this project was to create a bike frame from scratch to learn the fundamentals of bike and jig design. Overall, it was a great way to develop my design, analytical, and engineering skills. ",
+            "buttons": "Reports"
         },
         {
             "title": "Lifecycle Chair Testing Machine",
             "description": "A fatigue loading research project",
             "meta": "SolidWorks, FEA, Machining, Assembly, Arduino",
-            "info": "This project was one of the undertakings I had as an R&D Engineer Intern at UWaterloo. The purpose of the project was to explore the accuracy of finite element software and real life results of cyclic loading on an armchair. I designed and built the machine from scratch and automated the linear actuator by programming an Arduino."
+            "info": "This project was one of the undertakings I had as an R&D Engineer Intern at UWaterloo. The purpose of the project was to explore the accuracy of finite element software and real life results of cyclic loading on an armchair. I designed and built the machine from scratch and automated the linear actuator by programming an Arduino.",
+            "buttons": "Video GitHub"
         }
     ],
 
@@ -47,19 +53,22 @@
             "company": "ELL Technologies",
             "jobTitle": "Software Developer Intern",
             "meta": "May 2022 - Aug 2022",
-            "info": ""
+            "info": "",
+            "buttons": ""
         },
         {
             "company": "Toyota Motors",
             "jobTitle": "Facilities Engineer Intern",
             "meta": "May 2021 - Aug 2021",
-            "info": "During my internship at Toyota, I led an investigation into reducing the factory chilled water production in the car manufacturing process using the Toyota Business Practice problem solving model. This Kaizen consisted of conducting root cause analysis, developing countermeasures, analyzing the results, and Yokoten. My proposal was to re-use a defunct mechanical system on site which had the potential to reduce costs by a forecasted 74% and have a payback period of 6 months. At the end of my term, I had the opportunity to present this study to the senior/general managers."
+            "info": "During my internship at Toyota, I led an investigation into reducing the factory chilled water production in the car manufacturing process using the Toyota Business Practice problem solving model. This Kaizen consisted of conducting root cause analysis, developing countermeasures, analyzing the results, and Yokoten. My proposal was to re-use a defunct mechanical system on site which had the potential to reduce costs by a forecasted 74% and have a payback period of 6 months. At the end of my term, I had the opportunity to present this study to the senior/general managers.",
+            "buttons": ""
         },
         {
             "company": "University of Waterloo",
             "jobTitle": "R&D Engineer Intern",
             "meta": "Sep 2020 - Dec 2020",
-            "info": "My primary focus in this role was creating a custom bike frame, welding jig, and an armchair lifecycle testing machine. I brought all of these projects from start to finish alongside my coworkers and technicians. I led the whole design process which consisted of 3D modelling, creating engineering drawings, finite element analysis, preparing bill of materials, machining, programming an Arduino, and assembly. Some other projects/activities that I was involved with include developing a pizza kitchen simulation for Management Sciences students to explore during class labs, providing technical support for student design days, and showcasing our projects at virtual open houses."
+            "info": "My primary focus in this role was creating a custom bike frame, welding jig, and an armchair lifecycle testing machine. I brought all of these projects from start to finish alongside my coworkers and technicians. I led the whole design process which consisted of 3D modelling, creating engineering drawings, finite element analysis, preparing bill of materials, machining, programming an Arduino, and assembly. Some other projects/activities that I was involved with include developing a pizza kitchen simulation for Management Sciences students to explore during class labs, providing technical support for student design days, and showcasing our projects at virtual open houses.",
+            "buttons": ""
         }
     ]
 }

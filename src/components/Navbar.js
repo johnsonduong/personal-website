@@ -30,7 +30,7 @@ const NavButton = styled(Button)(({ theme }) => ({
   backgroundColor: "transparent",
   borderRadius: "0",
   "&:hover, &.Mui-focusVisible": {
-    backgroundColor: "#EDE6E3",
+    backgroundColor: "#D7EBFF",
     color: "black",
   },
 }));

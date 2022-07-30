@@ -2,10 +2,31 @@ import React from "react";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
-import IconButton from "@mui/material/IconButton";
-import { styled } from "@mui/material/styles";
+import Button from "@mui/material/Button";
+import CallMadeIcon from "@mui/icons-material/CallMade";
 
 const Card = (props) => {
+  const buttonsArray = props.buttons.split(" ");
+
+  const buttons = buttonsArray.map((button) => (
+    <Button
+      variant="text"
+      color="inherit"
+      sx={{
+        mr: 1,
+        borderRadius: 0,
+        fontWeight: "bold",
+        "&:hover, &.Mui-focusVisible": {
+          backgroundColor: "black",
+          color: "white",
+        },
+      }}
+    >
+      {button}
+      <CallMadeIcon />
+    </Button>
+  ));
+
   return (
     <Box className="card">
       <Container maxWidth="lg" sx={{ display: "flex", alignItems: "center", minHeight: "500px" }}>
@@ -19,9 +40,10 @@ const Card = (props) => {
           <Typography variant="body1" color="inherit" sx={{ mb: 3, fontSize: { xs: 14, sm: 14, md: 14, lg: 16, xl: 16 } }}>
             {props.meta}
           </Typography>
-          <Typography variant="body1" color="inherit" sx={{ fontSize: { xs: 13, sm: 14, md: 16, lg: 18, xl: 18 } }}>
+          <Typography variant="body1" color="inherit" sx={{ mb: 3, fontSize: { xs: 13, sm: 14, md: 16, lg: 18, xl: 18 } }}>
             {props.info}
           </Typography>
+          {props.buttons != "" && buttons}
         </Box>
         <Box sx={{ display: "flex", flexGrow: 1, justifyContent: "center" }}>
           <img className="company-logo" src={props.imagePath} alt="" style={{ width: "180px", backgroundColor: "white", marginLeft: 10 }} />

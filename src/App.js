@@ -13,7 +13,7 @@ import AnimatedCursor from "react-animated-cursor";
 
 const theme = createTheme({
   typography: {
-    fontFamily: ["Poppins", "Open Sans", "sans-serif"].join(","),
+    fontFamily: ["Poppins", "sans-serif"].join(","),
   },
 });
 
