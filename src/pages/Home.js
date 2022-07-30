@@ -5,32 +5,17 @@ import Typography from "@mui/material/Typography";
 import Typed from "react-typed";
 import { makeStyles, useTheme } from "@mui/material";
 
-const styles = (theme) => ({
-  typography: {
-    padding: theme.spacing(1),
-    [theme.breakpoints.down("xs")]: {
-      fontSize: "10px",
-    },
-    [theme.breakpoints.up("md")]: {
-      backgroundColor: theme.palette.primary.main,
-    },
-    [theme.breakpoints.up("lg")]: {
-      backgroundColor: "green",
-    },
-  },
-});
-
 const Home = () => {
   return (
     <div className="Home">
       <Container maxWidth="lg" md sx={{ display: "flex", justifyContent: "center", alignItems: "center", border: "none", flexGrow: 1, height: "100%" }}>
         <Box sx={{ border: "none", mb: 25 }}>
           <Box>
-            <Typography variant={"h1"} component="h1" color="initial" sx={{ fontWeight: "bold", mb: 2, px: 20, fontSize: { xs: 50, sm: 50, md: 60, lg: 80, xl: 100 } }}>
+            <Typography variant={"h1"} component="h1" color="initial" sx={{ fontWeight: "bold", mb: 2, px: 20, fontSize: { xs: 50, sm: 50, md: 60, lg: 80, xl: 90 } }}>
               {"Johnson Duong"}
             </Typography>
-            <Typography variant="h4" component="h1" color="initial" sx={{ fontWeight: "bold", mb: 0, px: 20, fontSize: { xs: 20, sm: 20, md: 25, lg: 30, xl: 40 } }}>
-              <Typed strings={["Software Developer", "Computer Engineering^750 @ UWaterloo", "Gym Rat", "Music Lover", "Finance Nerd", "Avid Bike Rider", "Tech Enthusiast"]} typeSpeed={40} backSpeed={50} backDelay={1000} loop />
+            <Typography variant="h4" component="h1" color="initial" sx={{ fontWeight: "bold", mb: 0, px: 20, fontSize: { xs: 20, sm: 20, md: 25, lg: 30, xl: 35 } }}>
+              <Typed strings={["Software Developer", "Computer Engineering^750 @ UWaterloo", "Gym Rat", "Music Lover", "Finance Nerd", "Tech Enthusiast"]} typeSpeed={40} backSpeed={50} backDelay={1000} loop />
             </Typography>
           </Box>
         </Box>

@@ -15,13 +15,13 @@ const imageArray = [firstImage, secondImage, thirdImage];
 
 const Projects = () => {
   const projects = config.projects.map((project, index) => {
-    return <Card className="card" title={project.title} heading={project.description} date={project.date} info={project.info} imagePath={imageArray[index]} />;
+    return <Card className="card" title={project.title} heading={project.description} meta={project.meta} info={project.info} imagePath={imageArray[index]} />;
   });
 
   return (
     <div className="Projects">
       <Container maxWidth="lg" sx={{ flexGrow: 1 }}>
-        <Typography variant="h2" component="h1" color="initial" sx={{ fontWeight: "bold", mb: 3 }}>
+        <Typography variant="h2" component="h1" color="initial" sx={{ fontWeight: "bold", mb: 3, fontSize: { xs: 40, sm: 40, md: 50, lg: 60, xl: 60 } }}>
           {"Projects"}
         </Typography>
       </Container>

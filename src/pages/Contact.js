@@ -46,7 +46,7 @@ const Contact = () => {
   return (
     <div className="Contact">
       <Container maxWidth="lg" sx={{ flexGrow: 1 }}>
-        <Typography variant="h2" component="h1" color="initial" sx={{ fontWeight: "bold", mb: 3 }}>
+        <Typography variant="h2" component="h1" color="initial" sx={{ fontWeight: "bold", mb: 3, fontSize: { xs: 40, sm: 40, md: 50, lg: 60, xl: 60 } }}>
           {"Contact"}
         </Typography>
         <ContactForm handleSubmit={handleSubmit} setName={setName} setEmail={setEmail} setMessage={setMessage} submitSuccess={submitSuccess} setSubmitSuccess={setSubmitSuccess} submitError={submitError} setSubmitError={setSubmitError} />

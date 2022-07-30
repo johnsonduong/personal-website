@@ -15,13 +15,13 @@ const imageArray = [firstImage, secondImage, thirdImage];
 
 const Experience = () => {
   const experiences = config.experience.map((experience, index) => {
-    return <Card title={experience.company} heading={experience.jobTitle} date={experience.date} info={experience.info} backgroundColor={experience.backgroundColor} imagePath={imageArray[index]} />;
+    return <Card title={experience.company} heading={experience.jobTitle} meta={experience.meta} info={experience.info} backgroundColor={experience.backgroundColor} imagePath={imageArray[index]} />;
   });
 
   return (
     <div className="Experience">
       <Container maxWidth="lg" sx={{ border: "none", flexGrow: 1 }}>
-        <Typography variant="h2" component="h1" color="initial" sx={{ fontWeight: "bold", mb: 3 }}>
+        <Typography variant="h2" component="h1" color="initial" sx={{ fontWeight: "bold", mb: 3, fontSize: { xs: 40, sm: 40, md: 50, lg: 60, xl: 60 } }}>
           {"Experience"}
         </Typography>
       </Container>

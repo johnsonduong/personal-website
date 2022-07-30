@@ -17,7 +17,7 @@ const ContactForm = (props) => {
       <Grid>
         <Card sx={{ minWidth: 450, p: 0, m: 0, backgroundColor: "transparent", boxShadow: "none" }}>
           <CardContent sx={{ px: 1 }}>
-            <Typography variant="h6" component="p" gutterBottom>
+            <Typography sx={{ fontSize: { xs: 16, sm: 16, md: 18, lg: 20, xl: 20 } }} variant="h6" component="p" gutterBottom>
               Let's get in touch! Whether you have a question or just want to chat, you can message me here.
             </Typography>
             <form onSubmit={props.handleSubmit}>
@@ -41,7 +41,7 @@ const ContactForm = (props) => {
                       py: 1,
                       color: "black",
                       fontWeight: "bold",
-                      fontSize: 16,
+                      fontSize: { xs: 12, sm: 14, md: 14, lg: 16, xl: 16 },
                       backgroundColor: "white",
                       border: "solid black 3px",
                       borderRadius: "0",

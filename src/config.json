@@ -5,21 +5,27 @@
 
     "projects": [
         {
+            "title": "Personal Website",
+            "description": "This website!",
+            "meta": "React, MUI, Firebase, JavaScript, HTML, CSS",
+            "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, veniam officiis cum doloremque earum quo dicta impedit nobis aperiam illo."
+        },
+        {
             "title": "PixArt",
-            "date": "",
             "description": "An online drawing application",
+            "meta": "Vanilla JavaScript, HTML, CSS - No libraries!",
             "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, veniam officiis cum doloremque earum quo dicta impedit nobis aperiam illo."
         },
         {
             "title": "Rock Paper Scissors",
-            "date": "",
+            "meta": "Vanilla JavaScript, HTML, CSS - No libraries!",
             "description": "Play against a computer",
             "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, veniam officiis cum doloremque earum quo dicta impedit nobis aperiam illo."
         },
         {
             "title": "Monkey Business",
-            "date": "",
             "description": "A mock landing page",
+            "meta": "Vanilla JavaScript, HTML, CSS - No libraries!",
             "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, veniam officiis cum doloremque earum quo dicta impedit nobis aperiam illo."
         }
     ],
@@ -28,20 +34,20 @@
         {
             "company": "ELL Technologies",
             "jobTitle": "Software Developer Intern",
-            "date": "May 2022 - Aug 2022",
+            "meta": "May 2022 - Aug 2022",
             "info": ""
         },
         {
             "company": "Toyota Motors",
             "jobTitle": "Facilities Engineer Intern",
-            "date": "May 2021 - Aug 2021",
-            "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, veniam officiis cum doloremque earum quo dicta impedit nobis aperiam illo."
+            "meta": "May 2021 - Aug 2021",
+            "info": "During my internship at Toyota, I led an investigation into reducing the factory chilled water production in the car manufacturing process using the Toyota Business Practice problem solving model. This Kaizen consisted of conducting root cause analysis, developing countermeasures, analyzing the results, and Yokoten. My proposal was to re-use a defunct mechanical system on site which had the potential to reduce costs by a forecasted 74% and have a payback period of 6 months. At the end of my term, I had the opportunity to present this study to the senior/general managers."
         },
         {
             "company": "University of Waterloo",
             "jobTitle": "R&D Engineer Intern",
-            "date": "Sep 2020 - Dec 2020",
-            "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, veniam officiis cum doloremque earum quo dicta impedit nobis aperiam illo."
+            "meta": "Sep 2020 - Dec 2020",
+            "info": "My primary focus in this role was creating a custom bike frame, welding jig, and an armchair lifecycle testing machine. I brought all of these projects from start to finish alongside my coworkers and technicians. I led the whole design process which consisted of 3D modelling, creating engineering drawings, finite element analysis, preparing bill of materials, machining, programming an Arduino, and assembly. Some other projects/activities that I was involved with include developing a pizza kitchen simulation for Management Sciences students to explore during class labs, providing technical support for student design days, and showcasing our projects at virtual open houses."
         }
     ]
 }

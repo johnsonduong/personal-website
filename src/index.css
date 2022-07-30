@@ -1,5 +1,6 @@
 html {
   overflow-y: overlay;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -31,6 +32,9 @@ body {
   .tech-icon {
     transform: scale(0.8);
   }
+  .company-logo {
+    transform: scale(0.7);
+  }
 }
 
 @media screen and (min-width: 600px) {
@@ -39,6 +43,9 @@ body {
   }
   .tech-icon {
     transform: scale(0.9);
+  }
+  .company-logo {
+    transform: scale(0.8);
   }
 }
 
@@ -49,6 +56,9 @@ body {
   .tech-icon {
     transform: scale(0.95);
   }
+  .company-logo {
+    transform: scale(0.9);
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -56,6 +66,9 @@ body {
     width: 18em; height: auto;
   }
   .tech-icon {
+    transform: scale(1);
+  }
+  .company-logo {
     transform: scale(1);
   }
 }
@@ -73,7 +86,7 @@ body {
 }
 
 .card:nth-child(even) {
-  background-color: lightgray;
+  background-color: #EFF6EE;
 }
 
 .success-alert {
@@ -113,7 +126,6 @@ body {
   transition: opacity 300ms;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
+
+
