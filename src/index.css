@@ -86,7 +86,7 @@ body {
 }
 
 .card:nth-child(even) {
-  background-color: #EFF6EE;
+  background-color: #EDE6E3;
 }
 
 .success-alert {

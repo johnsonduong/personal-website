@@ -7,7 +7,7 @@
         {
             "title": "Personal Website",
             "description": "This website!",
-            "meta": "React, MUI, Firebase, JavaScript, HTML, CSS",
+            "meta": "React, MaterialUI, Firebase, JavaScript, HTML, CSS",
             "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, veniam officiis cum doloremque earum quo dicta impedit nobis aperiam illo."
         },
         {
@@ -19,14 +19,26 @@
         {
             "title": "Rock Paper Scissors",
             "meta": "Vanilla JavaScript, HTML, CSS - No libraries!",
-            "description": "Play against a computer",
-            "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, veniam officiis cum doloremque earum quo dicta impedit nobis aperiam illo."
+            "description": "A simple computer game",
+            "info": "My first project-based introduction to JavaScript."
         },
         {
             "title": "Monkey Business",
             "description": "A mock landing page",
-            "meta": "Vanilla JavaScript, HTML, CSS - No libraries!",
-            "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, veniam officiis cum doloremque earum quo dicta impedit nobis aperiam illo."
+            "meta": "Vanilla HTML and CSS - No libraries!",
+            "info": "This is my first ever webpage! Creating this landing page was a great way for me to learn the fundamentals of HTML and CSS."
+        },
+        {
+            "title": "Bike Frame and Welding Jig",
+            "description": "Engineering a bike frame from scratch",
+            "meta": "SolidWorks, FEA, Machining, Assembly",
+            "info": "This was one of the projects I had working as an R&D Engineer Intern at UWaterloo. The purpose of this project was to create a bike frame from scratch to learn the fundamentals of bike and jig design. Overall, it was a great way to strengthen my mechanical engineering skills. "
+        },
+        {
+            "title": "Lifecycle Chair Testing Machine",
+            "description": "A fatigue loading research project",
+            "meta": "SolidWorks, FEA, Machining, Assembly, Arduino",
+            "info": "This project was one of the undertakings I had as an R&D Engineer Intern at UWaterloo. The purpose of the project was to explore the accuracy of finite element software and real life results of cyclic loading on an armchair. I designed and built the machine from scratch and automated the linear actuator by programming an Arduino."
         }
     ],
 
