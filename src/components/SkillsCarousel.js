@@ -1,5 +1,4 @@
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
+import Slider from "react-slick";
 
 const TechIcon = (props) => {
   return (
@@ -10,31 +9,36 @@ const TechIcon = (props) => {
   );
 };
 
-const responsive = {
-  desktop: {
-    breakpoint: { max: 3000, min: 1024 },
-    items: 9,
-    slidesToSlide: 1, // optional, default to 1.
-    partialVisibilityGutter: 40,
-  },
-  tablet: {
-    breakpoint: { max: 1024, min: 600 },
-    items: 6,
-    slidesToSlide: 2, // optional, default to 1.
-    partialVisibilityGutter: 30,
-  },
-  mobile: {
-    breakpoint: { max: 600, min: 0 },
-    items: 4,
-    slidesToSlide: 3, // optional, default to 1.
-    partialVisibilityGutter: 30,
-  },
-};
-
 const SkillsCarousel = () => {
+  const settings = {
+    dots: false,
+    infinite: true,
+    slidesToShow: 9,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    arrows: true,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 6,
+          slidesToScroll: 2,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 3,
+        },
+      },
+    ],
+  };
+
   return (
     <div>
-      <Carousel responsive={responsive} infinite={true} autoPlay={true} autoPlaySpeed={3000} arrows={false} renderButtonGroupOutside={true}>
+      <Slider {...settings}>
         <TechIcon src="https://img.icons8.com/color/60/000000/javascript--v1.png" label="JAVASCRIPT" />
         <TechIcon src="https://img.icons8.com/color/60/000000/html-5--v1.png" label="HTML5" />
         <TechIcon src="https://img.icons8.com/color/60/000000/css3.png" label="CSS3" />
@@ -55,7 +59,7 @@ const SkillsCarousel = () => {
         <TechIcon src="https://img.icons8.com/color/60/000000/npm.png" label="NPM" />
         <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" label="JIRA" />
         <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" label="FIGMA" />
-      </Carousel>
+      </Slider>
     </div>
   );
 };

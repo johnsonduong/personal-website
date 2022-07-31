@@ -15,7 +15,19 @@ const imageArray = [firstImage, secondImage, thirdImage];
 
 const Experience = () => {
   const experiences = config.experience.map((experience, index) => {
-    return <Card title={experience.company} heading={experience.jobTitle} meta={experience.meta} info={experience.info} backgroundColor={experience.backgroundColor} imagePath={imageArray[index]} buttons={experience.buttons} />;
+    return (
+      <Card
+        className="experience-card"
+        title={experience.company}
+        heading={experience.jobTitle}
+        meta={experience.meta}
+        info={experience.info}
+        backgroundColor={experience.backgroundColor}
+        imagePath={imageArray[index]}
+        buttons={experience.buttons}
+        links={experience.links}
+      />
+    );
   });
 
   return (

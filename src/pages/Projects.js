@@ -11,11 +11,11 @@ import firstImage from "../images/ell-logo.png";
 import secondImage from "../images/toyota-logo.png";
 import thirdImage from "../images/uwaterloo-logo.png";
 
-const imageArray = [firstImage, secondImage, thirdImage];
+const imageArray = [];
 
 const Projects = () => {
   const projects = config.projects.map((project, index) => {
-    return <Card className="card" title={project.title} heading={project.description} meta={project.meta} info={project.info} imagePath={imageArray[index]} buttons={project.buttons} />;
+    return <Card className="project-card" title={project.title} heading={project.description} meta={project.meta} info={project.info} imagePath={imageArray[index]} buttons={project.buttons} links={project.links} />;
   });
 
   return (
