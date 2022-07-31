@@ -8,7 +8,7 @@
             "title": "Personal Website",
             "description": "This website!",
             "meta": "React, MaterialUI, Firebase, CI/CD, JavaScript, HTML, CSS",
-            "info": "This is my little corner on the internet. The frontend was created using React and I'm using Firebase as the backend. Messages submitted through the contact form are stored using the Cloud Firestore database. This site is also auto-deployed using a CI/CD pipeline set up using GitHub Actions.",
+            "info": "This is my little corner on the internet. The frontend was created using React and I'm using Firebase for the backend. Messages submitted through the contact form are stored using the Cloud Firestore database. This site is also auto-deployed using a CI/CD pipeline set up using GitHub Actions.",
             "buttons": "GitHub",
             "links": "https://github.com/johnsonduong/personal-website"
         },

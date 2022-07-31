@@ -24,7 +24,7 @@ export default function Footer() {
   return (
     <Container disableGutters sx={{ backgroundColor: "transparent", display: "flex", justifyContent: "flex-end", position: "sticky", bottom: 0, py: 2 }}>
       <Box sx={{ backgroundColor: "none" }} value={value} onChange={handleChange}>
-        <a href="https://github.com/johnsonduong" target="_blank" rel="noreferrer">
+        <a href="https://github.com/johnsonduong" target="_blank" rel="noreferrer" style={{ marginRight: 5 }}>
           <SocialIcon src="https://img.icons8.com/ios-glyphs/30/000000/github.png" />
         </a>
         <a href="https://www.linkedin.com/in/johnsonduong/" target="_blank" rel="noreferrer">
