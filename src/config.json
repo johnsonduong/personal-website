@@ -41,14 +41,14 @@
             "description": "Engineering a bike frame from scratch",
             "meta": "SolidWorks, FEA, GD&T, Machining, Assembly",
             "info": "This was one of the projects I had working as an R&D Engineer Intern at UWaterloo. The purpose of this project was to create a bike frame from scratch to learn the fundamentals of bike and jig design. Overall, it was a great way to develop my design, analytical, and engineering skills. ",
-            "buttons": "Reports",
-            "links": ""
+            "buttons": "Report1 Report2",
+            "links": "https://media-exp1.licdn.com/dms/document/C4E2DAQGmtS1RDddE-A/profile-treasury-document-pdf-analyzed/0/1608487555857?e=1660176000&v=beta&t=D1TYJoxxKPO6dhZkxYGURQSiEPJpXaZ7RF8pE4XOHV4 https://media-exp1.licdn.com/dms/document/C4E2DAQG5VG7id1bMSA/profile-treasury-document-pdf-analyzed/0/1608488314047?e=1660176000&v=beta&t=xFx7-tUks5aUx-LSugAZY8HzuWU_jBDs5k3pfciam3E"
         },
         {
             "title": "Lifecycle Testing Machine",
             "description": "A fatigue loading research project",
             "meta": "SolidWorks, FEA, Machining, Assembly, Arduino",
-            "info": "This project was one of the undertakings I had as an R&D Engineer Intern at UWaterloo. The purpose of the project was to explore the accuracy of finite element software and real life results of cyclic loading on an armchair. I designed and built the machine from scratch and automated the linear actuator by programming an Arduino.",
+            "info": "This project was one of the undertakings I had as an R&D Engineer Intern at UWaterloo. The purpose of the project was to explore the accuracy of finite element software and real life results of cyclic loading on an armchair. I designed and built the machine from scratch and programmed an Arduino to automate the linear actuator.",
             "buttons": "Video",
             "links": "https://www.youtube.com/shorts/iL7_8Z-cFmI"
         }
@@ -67,7 +67,7 @@
             "company": "Toyota Motors",
             "jobTitle": "Facilities Engineer Intern",
             "meta": "May 2021 - Aug 2021",
-            "info": "During my internship at Toyota, I led an investigation into reducing the factory chilled water production in the car manufacturing process using the Toyota Business Practice problem solving model. This Kaizen consisted of conducting root cause analysis, developing countermeasures, analyzing the results, and Yokoten. My proposal was to re-use a defunct mechanical system on site which had the potential to reduce costs by a forecasted 74% and have a payback period of 6 months. At the end of my term, I had the opportunity to present this study to the senior/general managers.",
+            "info": "During my internship at Toyota, I led an investigation into reducing the factory chilled water production in the car manufacturing process using the Toyota Business Practice problem solving model. This Kaizen consisted of conducting root cause analysis, developing countermeasures, analyzing the results, and Yokoten. My proposal was to re-use a defunct mechanical system on site which had the potential to reduce costs by a forecasted 74% and have a payback period of 6 months. At the end of my term, I had the opportunity to present this study to senior management. Another noteworthy project that I led was migrating a paper based approval process for utility requests into electronic format by developing a virtual portal. I created multiple iterations and trial and error with other departments prior to full deployment. The project was well-received and will save countless man-hours at Toyota.",
             "buttons": "",
             "links": ""
         },

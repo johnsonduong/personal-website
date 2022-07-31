@@ -7,15 +7,18 @@ import { styled } from "@mui/material/styles";
 import Card from "../components/Card";
 import config from "../config.json";
 
-import firstImage from "../images/ell-logo.png";
-import secondImage from "../images/toyota-logo.png";
-import thirdImage from "../images/uwaterloo-logo.png";
+import image1 from "../images/personal-website.png";
+import image2 from "../images/pixart.png";
+import image3 from "../images/rockpaperscissors.png";
+import image4 from "../images/monkey-business.png";
+import image5 from "../images/bike-and-jig.jpeg";
+import image6 from "../images/lifecycle-machine.jpeg";
 
-const imageArray = [];
+const imageArray = [image1, image2, image3, image4, image5, image6];
 
 const Projects = () => {
   const projects = config.projects.map((project, index) => {
-    return <Card className="project-card" title={project.title} heading={project.description} meta={project.meta} info={project.info} imagePath={imageArray[index]} buttons={project.buttons} links={project.links} />;
+    return <Card className="project-card" title={project.title} heading={project.description} meta={project.meta} info={project.info} buttons={project.buttons} links={project.links} imagePath={imageArray[index]} />;
   });
 
   return (

@@ -23,7 +23,7 @@ const About = () => {
         <Box sx={{ display: "flex", alignItems: "center", border: "none", mb: 5 }}>
           <Box>{biography}</Box>
           <Box sx={{ display: "flex", justifyContent: "center", flexGrow: 1 }}>
-            <img src={require("../images/profile1.png")} className="about-photo" alt="Me!" />
+            <img src={require("../images/rocket.png")} className="about-photo" alt="Me!" />
           </Box>
         </Box>
 

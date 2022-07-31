@@ -4,11 +4,13 @@ import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import CallMadeIcon from "@mui/icons-material/CallMade";
-import { Link } from "react-router-dom";
+
+// import ImageGallery from "react-image-gallery";
 
 const Card = (props) => {
   const buttonsArray = props.buttons.split(" ");
   const linksArray = props.links.split(" ");
+  // const imagesArray = props.images;
 
   const buttons = buttonsArray.map((button, index) => (
     <a href={linksArray[index]} target="_blank" rel="noreferrer" style={{ color: "inherit" }}>
@@ -34,7 +36,7 @@ const Card = (props) => {
   return (
     <Box className={`card ${props.className}`}>
       <Container maxWidth="lg" sx={{ display: "flex", alignItems: "center", minHeight: "500px" }}>
-        <Box sx={{ py: 5, width: 1000, mr: 5 }}>
+        <Box sx={{ py: 5, width: 1500, mr: 5 }}>
           <Typography variant="h3" color="inherit" sx={{ mb: 1, fontSize: { xs: 30, sm: 36, md: 40, lg: 48, xl: 48 } }}>
             {props.title}
           </Typography>
@@ -51,7 +53,7 @@ const Card = (props) => {
         </Box>
         <Box sx={{ display: "flex", flexGrow: 1, justifyContent: "center" }}>
           {props.className === "project-card" ? (
-            <img src={props.imagePath} alt="" style={{ width: "350px", backgroundColor: "white", marginLeft: 10 }} />
+            <img className="project-photo" src={props.imagePath} alt="" style={{ height: "300px", marginLeft: 10 }} />
           ) : (
             <img className="company-logo" src={props.imagePath} alt="" style={{ width: "180px", backgroundColor: "white", marginLeft: 10 }} />
           )}
