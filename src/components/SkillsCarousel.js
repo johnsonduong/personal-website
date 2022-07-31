@@ -14,7 +14,7 @@ const SkillsCarousel = () => {
     dots: false,
     infinite: true,
     slidesToShow: 9,
-    slidesToScroll: 1,
+    slidesToScroll: 2,
     autoplay: true,
     autoplaySpeed: 2000,
     arrows: true,
