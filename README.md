@@ -1,7 +1,7 @@
 <br />
 <h1>
 <p align="center">
-  <img src="https://github.com/johnsonduong/pixart/blob/main/images/logo.png?raw=true" alt="Logo" width="110" height="110">
+  <img src="https://github.com/johnsonduong/personal-website/blob/main/public/logo.png?raw=true" alt="Logo" width="110" height="110">
   <br>PixArt
 </h1>
 <p align="center">
