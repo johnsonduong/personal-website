@@ -2,7 +2,7 @@
 <h1>
 <p align="center">
   <img src="https://github.com/johnsonduong/personal-website/blob/main/public/logo.png?raw=true" alt="Logo" width="110" height="110">
-  <br>PixArt
+  <br>Personal Website
 </h1>
 <p align="center">
     My little corner on the internet.
