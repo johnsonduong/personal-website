@@ -5,7 +5,7 @@
   <br>Personal Website
 </h1>
 <p align="center">
-    My little corner on the internet.
+    My little corner on the internet
     <br />
     </p>
 </p>
