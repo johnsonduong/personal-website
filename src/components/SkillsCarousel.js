@@ -1,4 +1,5 @@
 import Slider from "react-slick";
+import Container from "@mui/material/Container";
 
 const TechIcon = (props) => {
   return (
@@ -14,30 +15,31 @@ const SkillsCarousel = () => {
     dots: false,
     infinite: true,
     slidesToShow: 9,
-    slidesToScroll: 2,
+    slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 1000,
     arrows: true,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 6,
-          slidesToScroll: 2,
+          slidesToShow: 7,
+          slidesToScroll: 1,
         },
       },
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 4,
-          slidesToScroll: 3,
+          slidesToShow: 5,
+          slidesToScroll: 5,
+          autoplaySpeed: 2000,
         },
       },
     ],
   };
 
   return (
-    <div>
+    <Container>
       <Slider {...settings}>
         <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" label="JAVASCRIPT" />
         {/* <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" label="TYPESCRIPT" /> */}
@@ -67,7 +69,7 @@ const SkillsCarousel = () => {
         <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" label="FIGMA" />
         <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" label="NPM" />
       </Slider>
-    </div>
+    </Container>
   );
 };
 
