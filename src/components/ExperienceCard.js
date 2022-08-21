@@ -28,7 +28,7 @@ const ExperienceCard = (props) => {
   ));
 
   return (
-    <Box className={`card ${props.className}`}>
+    <Box className={`expcard ${props.className}`}>
       <Container maxWidth="lg" sx={{ display: "flex", alignItems: "center", minHeight: "500px" }}>
         <Box sx={{ py: 5, width: 1500, mr: 5 }}>
           <Typography variant="h3" color="inherit" sx={{ mb: 0.5, fontWeight: "bold", fontSize: { xs: 26, sm: 30, md: 30, lg: 36, xl: 36 } }}>
@@ -49,14 +49,9 @@ const ExperienceCard = (props) => {
               </li>
             ))}
           </ul>
-          {props.buttons !== "" && buttons}
         </Box>
         <Box sx={{ display: "flex", flexGrow: 1, justifyContent: "center" }}>
-          {props.className === "project-card" ? (
-            <img className="project-photo" src={props.imagePath} alt="" style={{ height: "300px", marginLeft: 10 }} />
-          ) : (
-            <img className="company-logo" src={props.imagePath} alt="" style={{ width: "120px", backgroundColor: "none", marginLeft: 10 }} />
-          )}
+          <img className="company-logo" src={props.imagePath} alt="" style={{ width: "120px", backgroundColor: "none", marginLeft: 0 }} />
         </Box>
       </Container>
     </Box>

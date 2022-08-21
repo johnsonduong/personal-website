@@ -19,7 +19,8 @@ const imageArray = [image7, image6, image5, image4, image3, image2, image1];
 
 const Projects = () => {
   const projects = config.projects.map((project, index) => {
-    return <ProjectCard className="project-card" title={project.title} heading={project.description} meta={project.meta} info={project.info} buttons={project.buttons} links={project.links} imagePath={imageArray[index]} />;
+    // return <ProjectCard className="project-card" title={project.title} heading={project.description} meta={project.meta} info={project.info} buttons={project.buttons} links={project.links} imagePath={imageArray[index]} />;
+    return <ProjectCard className="project-card" title={project.title} heading={project.description} meta={project.meta} info={project.info} buttons={project.buttons} links={project.links} key={index} />;
   });
 
   return (

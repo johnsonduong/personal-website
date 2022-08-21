@@ -99,7 +99,7 @@ body {
   flex-grow: 1;
 }
 
-.card:nth-child(even) {
+.expcard:nth-child(even) {
   background-color: #D7EBFF;
 }
 
@@ -145,4 +145,9 @@ body {
   line-height: 1;
   opacity: .75;
   color: black;
+}
+
+.carousel-item img {
+  margin: 0 auto; /* this will align the image to center. */
+  width: auto; /* for those images which don't have a width specified, but has a max-height will be auto adjusted */
 }
