@@ -31,6 +31,14 @@ body {
   justify-content: flex-start;
 }
 
+.tech-icon:hover {
+  transform: scale(1.1);
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+}
+
 @media screen and (min-width: 0px) {
   .about-photo {
     width: 10em; height: auto;

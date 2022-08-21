@@ -32,14 +32,19 @@ const ProjectCard = (props) => {
   const navigate = useNavigate();
 
   const handleNav = (event) => {
-    // navigate(`/project/${event.currentTarget.id}`);
-    navigate(`/project`);
+    navigate(`/projects/${props.id}`);
   };
 
   return (
-    <Container maxWidth="lg" sx={{ display: "flex", alignItems: "center", minHeight: "400px", mb: 5, p: 0, backgroundColor: "white", boxShadow: "0px 0px 30px lightgray" }} onMouseOver={() => setShowInfo(true)} onMouseOut={() => setShowInfo(false)}>
+    <Container
+      maxWidth="lg"
+      onClick={handleNav}
+      sx={{ display: "flex", alignItems: "center", minHeight: "400px", mb: 5, p: 0, backgroundColor: "pink", boxShadow: "0px 5px 10px gray" }}
+      onMouseOver={() => setShowInfo(true)}
+      onMouseOut={() => setShowInfo(false)}
+    >
       <Box sx={{ py: 5, pl: 8 }}>
-        <Typography variant="h3" color="inherit" sx={{ fontWeight: "bold", fontSize: { xs: 30, sm: 36, md: 36, lg: 46, xl: 46 } }}>
+        <Typography variant="h3" color="inherit" sx={{ fontWeight: "bold", fontSize: { xs: 30, sm: 36, md: 36, lg: 40, xl: 40 } }}>
           {props.title}
         </Typography>
         {showInfo && (

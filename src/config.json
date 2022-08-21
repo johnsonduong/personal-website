@@ -8,8 +8,9 @@
 
     "projects": [
         {
+            "_id": 1,
             "title": "Lucid Dream Journal",
-            "description": "A CRUD app for tracking your dreams",
+            "description": "CRUD app for tracking your dreams",
             "meta": "React, Bootstrap, Express, NodeJS, MongoDB, Mongoose",
             "info": ["Built CRUD web app that allows users to keep record of their dreams using Node and Express",
                     "Created RESTful APIs that serve data from MongoDB database to React frontend based on user actions",
@@ -20,8 +21,9 @@
             "links": ["https://github.com/johnsonduong/personal-website"]
         },
         {
+            "_id": 2,
             "title": "Personal Website",
-            "description": "This website!",
+            "description": "My little corner on the internet",
             "meta": "React, MaterialUI, Firebase, CI/CD, JavaScript, HTML, CSS",
             "info": ["Developed React and Firebase website with CI/CD pipeline for auto-deployments using GitHub Actions",
                     "Implemented client-side data validation for contact form before sending to Cloud Firestore database"],
@@ -29,8 +31,9 @@
             "links": ["https://github.com/johnsonduong/personal-website"]
         },
         {
+            "_id": 3,
             "title": "PixArt",
-            "description": "An online drawing application",
+            "description": "Online pixel art drawing application",
             "meta": "Vanilla JavaScript, HTML, CSS - No libraries!",
             "info": ["Programmed online tool for drawing pixel art using vanilla JavaScript, HTML, and CSS",
                     "Integrated event listeners to enable users to manipulate drawing canvas colors, background, and grid"],
@@ -38,23 +41,26 @@
             "links": ["https://johnsonduong.github.io/pixart/", "https://github.com/johnsonduong/pixart"]
         },
         {
+            "_id": 4,
             "title": "Rock Paper Scissors",
+            "description": "Simple game from everyone's childhood",
             "meta": "Vanilla JavaScript, HTML, CSS - No libraries!",
-            "description": "A simple computer game",
             "info": [],
             "buttons": ["Live","GitHub"],
             "links": ["https://johnsonduong.github.io/rock-paper-scissors/", "https://github.com/johnsonduong/rock-paper-scissors"]
         },
         {
+            "_id": 5,
             "title": "Monkey Business",
-            "description": "A mock landing page",
+            "description": "Silly mock landing page",
             "meta": "Vanilla HTML and CSS - No libraries!",
             "info": [],
             "buttons": ["Live","GitHub"],
             "links": ["https://johnsonduong.github.io/monkey-business-landing-page/", "https://github.com/johnsonduong/monkey-business-landing-page"]
         },
         {
-            "title": "Bike Frame and Welding Jig",
+            "_id": 6,
+            "title": "Bike Frame & Welding Jig",
             "description": "Engineering a bike frame from scratch",
             "meta": "SolidWorks, FEA, GD&T, Machining, Assembly",
             "info": ["Project completed during co-op term at UWaterloo as an R&D Engineer Intern",
@@ -63,8 +69,9 @@
             "links": ["https://media-exp1.licdn.com/dms/document/C4E2DAQGmtS1RDddE-A/profile-treasury-document-pdf-analyzed/0/1608487555857?e=1660176000&v=beta&t=D1TYJoxxKPO6dhZkxYGURQSiEPJpXaZ7RF8pE4XOHV4", "https://media-exp1.licdn.com/dms/document/C4E2DAQG5VG7id1bMSA/profile-treasury-document-pdf-analyzed/0/1608488314047?e=1660176000&v=beta&t=xFx7-tUks5aUx-LSugAZY8HzuWU_jBDs5k3pfciam3E"]
         },
         {
+            "_id": 7,
             "title": "Lifecycle Testing Machine",
-            "description": "A fatigue loading research project",
+            "description": "Machine for conducting fatigue testing on chairs",
             "meta": "SolidWorks, FEA, Machining, Assembly, Arduino",
             "info": ["Project completed during co-op term at UWaterloo as an R&D Engineer Intern"],
             "buttons": ["Video"],
@@ -101,7 +108,7 @@
         },
         {
             "company": "University of Waterloo",
-            "jobTitle": "R&D Engineer Intern",
+            "jobTitle": "Research & Development Engineer Intern",
             "meta": "Sep 2020 - Dec 2020 • Waterloo, Canada",
             "info": ["Built lifecycle chair testing machine by programming and wiring automation controls using Arduino", 
                     "Led the design, construction, and analysis of steel bike frame and welding jig from scratch", 

@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import { React, useState, useEffect } from "react";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
@@ -8,6 +8,10 @@ import { useNavigate } from "react-router-dom";
 import Carousel from "react-bootstrap/Carousel";
 
 const Project = (props) => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "instant" });
+  }, []);
+
   const buttons = props.buttons.map((button, index) => (
     <a href={props.links[index]} target="_blank" rel="noreferrer" style={{ color: "inherit" }}>
       <Button
@@ -34,9 +38,9 @@ const Project = (props) => {
       <Typography variant="h3" color="inherit" sx={{ fontWeight: "bold", fontSize: { xs: 40, sm: 40, md: 50, lg: 60, xl: 60 } }}>
         {props.title}
       </Typography>
-      {/* <Typography variant="b1" color="inherit" sx={{ mb: 3, fontSize: { xs: 18, sm: 20, md: 20, lg: 26, xl: 26 } }}>
+      <Typography variant="b1" color="inherit" sx={{ mb: 3, fontSize: { xs: 18, sm: 20, md: 20, lg: 26, xl: 26 } }}>
         {props.heading}
-      </Typography> */}
+      </Typography>
       <Box display="flex" sx={{ mb: 1 }}>
         {buttons}
       </Box>
@@ -51,7 +55,7 @@ const Project = (props) => {
       </Carousel>
 
       <Typography variant="h3" color="inherit" sx={{ mb: 1, mt: 3, fontWeight: "bold", fontSize: { xs: 26, sm: 30, md: 30, lg: 36, xl: 36 } }}>
-        Technologies
+        Skills
       </Typography>
       <Typography variant="b1" color="inherit" sx={{ fontSize: { xs: 16, sm: 18, md: 18, lg: 20, xl: 20 } }}>
         {props.meta}

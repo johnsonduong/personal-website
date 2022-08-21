@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route, Navigate, useParams } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Home from "./pages/Home";
@@ -13,12 +13,24 @@ import Footer from "./components/Footer";
 import AnimatedCursor from "react-animated-cursor";
 import config from "./config.json";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Container from "@mui/material/Container";
 
 const theme = createTheme({
   typography: {
     fontFamily: ["Poppins", "sans-serif"].join(","),
   },
 });
+
+//Wrapper for displaying projects dynamically based on urlparams
+const ProjectWrapper = () => {
+  const { projectId } = useParams();
+  const project = config.projects.find((project) => project._id.toString() === projectId);
+
+  if (project === undefined) {
+    return <Container maxWidth="lg">404 Not Found</Container>;
+  }
+  return <Project id={projectId} title={project.title} heading={project.description} meta={project.meta} info={project.info} buttons={project.buttons} links={project.links} />;
+};
 
 const App = () => {
   const location = useLocation();
@@ -29,8 +41,6 @@ const App = () => {
     setCurrentPage(location.pathname);
     currentPage === "/home" ? document.querySelector(".App").classList.add("show-background") : document.querySelector(".App").classList.remove("show-background");
   });
-
-  const project = config.projects[0];
 
   return (
     <ThemeProvider theme={theme}>
@@ -43,7 +53,7 @@ const App = () => {
           <Route path="/experience" element={<Experience />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/project" element={<Project title={project.title} heading={project.description} meta={project.meta} info={project.info} buttons={project.buttons} links={project.links} />} />
+          <Route path="/projects/:projectId" element={<ProjectWrapper />} />
           <Route path="*" element={<Navigate to="/home" replace />} />
         </Routes>
         <Footer />
