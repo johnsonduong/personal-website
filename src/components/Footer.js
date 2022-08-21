@@ -7,6 +7,8 @@ import FavoriteIcon from "@mui/icons-material/Favorite";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
+import OverlayTrigger from "react-bootstrap/OverlayTrigger";
+import Tooltip from "react-bootstrap/Tooltip";
 
 import { styled } from "@mui/material/styles";
 
@@ -21,15 +23,31 @@ export default function Footer() {
     setValue(newValue);
   };
 
+  const renderTooltip1 = (props) => (
+    <Tooltip id="button-tooltip" {...props}>
+      GitHub
+    </Tooltip>
+  );
+
+  const renderTooltip2 = (props) => (
+    <Tooltip id="button-tooltip" {...props}>
+      LinkedIn
+    </Tooltip>
+  );
+
   return (
     <Container disableGutters sx={{ backgroundColor: "transparent", display: "flex", justifyContent: "flex-end", position: "sticky", bottom: 0, py: 2 }}>
       <Box sx={{ backgroundColor: "none" }} value={value} onChange={handleChange}>
-        <a href="https://github.com/johnsonduong" target="_blank" rel="noreferrer" style={{ marginRight: 5 }}>
-          <SocialIcon className="social-icon" src="https://img.icons8.com/ios-glyphs/30/000000/github.png" />
-        </a>
-        <a href="https://www.linkedin.com/in/johnsonduong/" target="_blank" rel="noreferrer">
-          <SocialIcon className="social-icon" src="https://img.icons8.com/ios-glyphs/30/000000/linkedin-2--v1.png" />
-        </a>
+        <OverlayTrigger placement="top" overlay={renderTooltip1}>
+          <a href="https://github.com/johnsonduong" type="button" target="_blank" rel="noreferrer" style={{ marginRight: 5 }}>
+            <SocialIcon className="social-icon" src="https://img.icons8.com/ios-glyphs/30/000000/github.png" />
+          </a>
+        </OverlayTrigger>
+        <OverlayTrigger placement="top" overlay={renderTooltip2}>
+          <a href="https://www.linkedin.com/in/johnsonduong/" type="button" target="_blank" rel="noreferrer" style={{ marginRight: 5 }}>
+            <SocialIcon className="social-icon" src="https://img.icons8.com/ios-glyphs/30/000000/linkedin-2--v1.png" />
+          </a>
+        </OverlayTrigger>
       </Box>
     </Container>
   );
