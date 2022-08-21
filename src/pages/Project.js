@@ -41,12 +41,12 @@ const Project = (props) => {
         {buttons}
       </Box>
 
-      <Carousel dark>
+      <Carousel dark interval={null}>
         <Carousel.Item className="carousel-item" style={{ backgroundColor: "black" }}>
           <img height={500} className="d-block" src="https://github.com/johnsonduong/personal-website/blob/main/src/images/monkey-business.png?raw=true" alt="First slide" />
         </Carousel.Item>
         <Carousel.Item className="carousel-item" style={{ backgroundColor: "black" }}>
-          <img height={500} className="d-block" src="https://github.com/johnsonduong/rock-paper-scissors/raw/main/images/rockpaperscissors.png?raw=true" alt="Second slide" />
+          <img height={500} className="d-block" src="https://media3.giphy.com/media/3nhfE47B5flIwdIGqk/giphy.gif?cid=ecf05e475fyzndgazsd72mpxqqj7tx8jgnn3j8lfh48xr9z7&rid=giphy.gif&ct=g" alt="Second slide" />
         </Carousel.Item>
       </Carousel>
 
