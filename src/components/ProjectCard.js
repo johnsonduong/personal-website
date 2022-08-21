@@ -7,27 +7,6 @@ import CallMadeIcon from "@mui/icons-material/CallMade";
 import { useNavigate } from "react-router-dom";
 
 const ProjectCard = (props) => {
-  // const buttons = props.buttons.map((button, index) => (
-  //   <a href={props.links[index]} target="_blank" rel="noreferrer" style={{ color: "inherit" }}>
-  //     <Button
-  //       variant="text"
-  //       color="inherit"
-  //       sx={{
-  //         mr: 1,
-  //         borderRadius: 0,
-  //         fontWeight: "bold",
-  //         "&:hover, &.Mui-focusVisible": {
-  //           backgroundColor: "black",
-  //           color: "white",
-  //         },
-  //       }}
-  //     >
-  //       {button}
-  //       <CallMadeIcon />
-  //     </Button>
-  //   </a>
-  // ));
-
   const [showInfo, setShowInfo] = useState(false);
   const navigate = useNavigate();
 

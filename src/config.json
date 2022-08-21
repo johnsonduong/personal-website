@@ -8,74 +8,81 @@
 
     "projects": [
         {
-            "_id": 1,
+            "_id": 7,
             "title": "Lucid Dream Journal",
             "description": "CRUD app for tracking your dreams",
-            "meta": "React, Bootstrap, Express, NodeJS, MongoDB, Mongoose",
+            "skills": "React, Bootstrap, Express, NodeJS, MongoDB, Mongoose",
             "info": ["Built CRUD web app that allows users to keep record of their dreams using Node and Express",
                     "Created RESTful APIs that serve data from MongoDB database to React frontend based on user actions",
                     "Programmed security features by hashing passwords using bcrypt and implementing JWT Authentication",
                     "Developed models by using Mongoose to create schemas and provide data validation",
                     "Implemented state management using React Context API to minimize HTTP requests to backend"],
             "buttons": ["GitHub"],
-            "links": ["https://github.com/johnsonduong/personal-website"]
+            "links": ["https://github.com/johnsonduong/lucid"],
+            "images": ["https://media3.giphy.com/media/3nhfE47B5flIwdIGqk/giphy.gif?cid=ecf05e475fyzndgazsd72mpxqqj7tx8jgnn3j8lfh48xr9z7&rid=giphy.gif&ct=g"]
         },
         {
-            "_id": 2,
+            "_id": 6,
             "title": "Personal Website",
             "description": "My little corner on the internet",
-            "meta": "React, MaterialUI, Firebase, CI/CD, JavaScript, HTML, CSS",
+            "skills": "React, MaterialUI, Bootstrap, Firebase, CI/CD, JavaScript, HTML, CSS",
             "info": ["Developed React and Firebase website with CI/CD pipeline for auto-deployments using GitHub Actions",
                     "Implemented client-side data validation for contact form before sending to Cloud Firestore database"],
             "buttons": ["GitHub"],
-            "links": ["https://github.com/johnsonduong/personal-website"]
+            "links": ["https://github.com/johnsonduong/personal-website"],
+            "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/personal-website.png?raw=true"]
         },
         {
-            "_id": 3,
+            "_id": 5,
             "title": "PixArt",
             "description": "Online pixel art drawing application",
-            "meta": "Vanilla JavaScript, HTML, CSS - No libraries!",
+            "skills": "JavaScript, HTML, CSS",
             "info": ["Programmed online tool for drawing pixel art using vanilla JavaScript, HTML, and CSS",
                     "Integrated event listeners to enable users to manipulate drawing canvas colors, background, and grid"],
             "buttons": ["Live","GitHub"],
-            "links": ["https://johnsonduong.github.io/pixart/", "https://github.com/johnsonduong/pixart"]
+            "links": ["https://johnsonduong.github.io/pixart/", "https://github.com/johnsonduong/pixart"],
+            "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/pixart.png?raw=true"]
         },
         {
             "_id": 4,
             "title": "Rock Paper Scissors",
             "description": "Simple game from everyone's childhood",
-            "meta": "Vanilla JavaScript, HTML, CSS - No libraries!",
+            "skills": "JavaScript, HTML, CSS",
             "info": [],
             "buttons": ["Live","GitHub"],
-            "links": ["https://johnsonduong.github.io/rock-paper-scissors/", "https://github.com/johnsonduong/rock-paper-scissors"]
+            "links": ["https://johnsonduong.github.io/rock-paper-scissors/", "https://github.com/johnsonduong/rock-paper-scissors"],
+            "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/rockpaperscissors.png?raw=true"]
         },
         {
-            "_id": 5,
+            "_id": 3,
             "title": "Monkey Business",
             "description": "Silly mock landing page",
-            "meta": "Vanilla HTML and CSS - No libraries!",
+            "skills": "HTML, CSS",
             "info": [],
             "buttons": ["Live","GitHub"],
-            "links": ["https://johnsonduong.github.io/monkey-business-landing-page/", "https://github.com/johnsonduong/monkey-business-landing-page"]
+            "links": ["https://johnsonduong.github.io/monkey-business-landing-page/", "https://github.com/johnsonduong/monkey-business-landing-page"],
+            "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/monkey-business.png?raw=true"]
         },
         {
-            "_id": 6,
+            "_id": 2,
             "title": "Bike Frame & Welding Jig",
             "description": "Engineering a bike frame from scratch",
-            "meta": "SolidWorks, FEA, GD&T, Machining, Assembly",
+            "skills": "SolidWorks, AutoCAD, Ansys, FEA, GD&T, Machining, DFM, DFA",
             "info": ["Project completed during co-op term at UWaterloo as an R&D Engineer Intern",
                     ""],
             "buttons": ["Report1", "Report2"],
-            "links": ["https://media-exp1.licdn.com/dms/document/C4E2DAQGmtS1RDddE-A/profile-treasury-document-pdf-analyzed/0/1608487555857?e=1660176000&v=beta&t=D1TYJoxxKPO6dhZkxYGURQSiEPJpXaZ7RF8pE4XOHV4", "https://media-exp1.licdn.com/dms/document/C4E2DAQG5VG7id1bMSA/profile-treasury-document-pdf-analyzed/0/1608488314047?e=1660176000&v=beta&t=xFx7-tUks5aUx-LSugAZY8HzuWU_jBDs5k3pfciam3E"]
+            "links": ["https://media-exp1.licdn.com/dms/document/C4E2DAQGmtS1RDddE-A/profile-treasury-document-pdf-analyzed/0/1608487555857?e=1660176000&v=beta&t=D1TYJoxxKPO6dhZkxYGURQSiEPJpXaZ7RF8pE4XOHV4", "https://media-exp1.licdn.com/dms/document/C4E2DAQG5VG7id1bMSA/profile-treasury-document-pdf-analyzed/0/1608488314047?e=1660176000&v=beta&t=xFx7-tUks5aUx-LSugAZY8HzuWU_jBDs5k3pfciam3E"],
+            "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/bike-and-jig.jpeg?raw=true"]
         },
         {
-            "_id": 7,
+            "_id": 1,
             "title": "Lifecycle Testing Machine",
             "description": "Machine for conducting fatigue testing on chairs",
-            "meta": "SolidWorks, FEA, Machining, Assembly, Arduino",
+            "skills": "SolidWorks, Ansys, FEA, Machining, DFM, DFA, Arduino",
             "info": ["Project completed during co-op term at UWaterloo as an R&D Engineer Intern"],
             "buttons": ["Video"],
-            "links": ["https://www.youtube.com/shorts/iL7_8Z-cFmI"]
+            "links": ["https://www.youtube.com/shorts/iL7_8Z-cFmI"],
+            "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/lifecycle-machine.jpeg?raw=true"]
         }
     ],
 

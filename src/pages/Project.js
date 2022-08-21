@@ -33,6 +33,12 @@ const Project = (props) => {
     </a>
   ));
 
+  const carouselItems = props.images.map((image, index) => (
+    <Carousel.Item className="carousel-item" style={{ backgroundColor: "black" }}>
+      <img height={500} className="d-block" src={image} alt={`Slide ${index + 1}`} />
+    </Carousel.Item>
+  ));
+
   return (
     <Container maxWidth="lg" sx={{ display: "flex", flexDirection: "column", border: "none", flexGrow: 1 }}>
       <Typography variant="h3" color="inherit" sx={{ fontWeight: "bold", fontSize: { xs: 40, sm: 40, md: 50, lg: 60, xl: 60 } }}>
@@ -46,19 +52,14 @@ const Project = (props) => {
       </Box>
 
       <Carousel dark interval={null}>
-        <Carousel.Item className="carousel-item" style={{ backgroundColor: "black" }}>
-          <img height={500} className="d-block" src="https://github.com/johnsonduong/personal-website/blob/main/src/images/monkey-business.png?raw=true" alt="First slide" />
-        </Carousel.Item>
-        <Carousel.Item className="carousel-item" style={{ backgroundColor: "black" }}>
-          <img height={500} className="d-block" src="https://media3.giphy.com/media/3nhfE47B5flIwdIGqk/giphy.gif?cid=ecf05e475fyzndgazsd72mpxqqj7tx8jgnn3j8lfh48xr9z7&rid=giphy.gif&ct=g" alt="Second slide" />
-        </Carousel.Item>
+        {carouselItems}
       </Carousel>
 
       <Typography variant="h3" color="inherit" sx={{ mb: 1, mt: 3, fontWeight: "bold", fontSize: { xs: 26, sm: 30, md: 30, lg: 36, xl: 36 } }}>
         Skills
       </Typography>
       <Typography variant="b1" color="inherit" sx={{ fontSize: { xs: 16, sm: 18, md: 18, lg: 20, xl: 20 } }}>
-        {props.meta}
+        {props.skills}
       </Typography>
       <Typography variant="h3" color="inherit" sx={{ mb: 1, mt: 3, fontWeight: "bold", fontSize: { xs: 26, sm: 30, md: 30, lg: 36, xl: 36 } }}>
         Summary

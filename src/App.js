@@ -29,7 +29,7 @@ const ProjectWrapper = () => {
   if (project === undefined) {
     return <Container maxWidth="lg">404 Not Found</Container>;
   }
-  return <Project id={projectId} title={project.title} heading={project.description} meta={project.meta} info={project.info} buttons={project.buttons} links={project.links} />;
+  return <Project id={projectId} title={project.title} heading={project.description} skills={project.skills} info={project.info} buttons={project.buttons} links={project.links} images={project.images} />;
 };
 
 const App = () => {

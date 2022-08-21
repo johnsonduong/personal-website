@@ -7,20 +7,19 @@ import { styled } from "@mui/material/styles";
 import ProjectCard from "../components/ProjectCard";
 import config from "../config.json";
 
-import image7 from "../images/profile.png";
-import image6 from "../images/personal-website.png";
-import image5 from "../images/pixart.png";
-import image4 from "../images/rockpaperscissors.png";
-import image3 from "../images/monkey-business.png";
-import image2 from "../images/bike-and-jig.jpeg";
-import image1 from "../images/lifecycle-machine.jpeg";
+// import image7 from "../images/profile.png";
+// import image6 from "../images/personal-website.png";
+// import image5 from "../images/pixart.png";
+// import image4 from "../images/rockpaperscissors.png";
+// import image3 from "../images/monkey-business.png";
+// import image2 from "../images/bike-and-jig.jpeg";
+// import image1 from "../images/lifecycle-machine.jpeg";
 
-const imageArray = [image7, image6, image5, image4, image3, image2, image1];
+// const imageArray = [image7, image6, image5, image4, image3, image2, image1];
 
 const Projects = () => {
   const projects = config.projects.map((project, index) => {
-    // return <ProjectCard className="project-card" title={project.title} heading={project.description} meta={project.meta} info={project.info} buttons={project.buttons} links={project.links} imagePath={imageArray[index]} />;
-    return <ProjectCard className="project-card" id={index + 1} title={project.title} heading={project.description} meta={project.meta} info={project.info} buttons={project.buttons} links={project.links} key={index} />;
+    return <ProjectCard className="project-card" id={project._id} title={project.title} heading={project.description} skills={project.skills} info={project.info} buttons={project.buttons} links={project.links} images={project.images} />;
   });
 
   return (
