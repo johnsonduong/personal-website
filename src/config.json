@@ -1,10 +1,10 @@
 {
     "about": [
-        "👋 Hey! I'm Johnson",
-        "🧑🏻‍💻 Software Developer Intern @ ELL Technologies",
+        "👋🏻 Hey! I'm Johnson",
+        "🧑🏻‍💻 Former Software Developer Intern @ ELL Technologies",
         "🎓 Computer Engineering 2026 @ University of Waterloo",
         "🏫 Previously Mechanical Engineering 2024 (But Transferred!)",
-        "🔍 Currently looking for internships"],
+        "👀 Currently looking for internships"],
 
     "projects": [
         {
@@ -19,7 +19,7 @@
                     "Implemented state management using React Context API to minimize HTTP requests to backend"],
             "buttons": ["GitHub"],
             "links": ["https://github.com/johnsonduong/lucid"],
-            "images": ["https://media3.giphy.com/media/3nhfE47B5flIwdIGqk/giphy.gif?cid=ecf05e475fyzndgazsd72mpxqqj7tx8jgnn3j8lfh48xr9z7&rid=giphy.gif&ct=g"]
+            "images": ["https://media0.giphy.com/media/PG6HSXWleKVqgeDTOF/giphy.gif?cid=ecf05e47b8ucl3j9q7ya9085o35lifeoxaixjuod9asz896i&rid=giphy.gif&ct=g"]
         },
         {
             "_id": 6,
@@ -48,7 +48,9 @@
             "title": "Rock Paper Scissors",
             "description": "Simple game from everyone's childhood",
             "skills": "JavaScript, HTML, CSS",
-            "info": [],
+            "info": ["Created simple game of rock paper scissors as beginner introduction to JavaScript",
+                    "First player to score of 5 wins the game",
+                    "Play against computer that randomly generates attacks"],
             "buttons": ["Live","GitHub"],
             "links": ["https://johnsonduong.github.io/rock-paper-scissors/", "https://github.com/johnsonduong/rock-paper-scissors"],
             "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/rockpaperscissors.png?raw=true"]
@@ -58,36 +60,40 @@
             "title": "Monkey Business",
             "description": "Silly mock landing page",
             "skills": "HTML, CSS",
-            "info": [],
+            "info": ["Created silly mock landing page for fictitious business to gain HTML and CSS experience"],
             "buttons": ["Live","GitHub"],
             "links": ["https://johnsonduong.github.io/monkey-business-landing-page/", "https://github.com/johnsonduong/monkey-business-landing-page"],
             "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/monkey-business.png?raw=true"]
         },
         {
             "_id": 2,
-            "title": "Bike Frame & Welding Jig",
-            "description": "Engineering a bike frame from scratch",
-            "skills": "SolidWorks, AutoCAD, Ansys, FEA, GD&T, Machining, DFM, DFA",
-            "info": ["Project completed during co-op term at UWaterloo as an R&D Engineer Intern",
-                    ""],
-            "buttons": ["Report1", "Report2"],
-            "links": ["https://media-exp1.licdn.com/dms/document/C4E2DAQGmtS1RDddE-A/profile-treasury-document-pdf-analyzed/0/1608487555857?e=1660176000&v=beta&t=D1TYJoxxKPO6dhZkxYGURQSiEPJpXaZ7RF8pE4XOHV4", "https://media-exp1.licdn.com/dms/document/C4E2DAQG5VG7id1bMSA/profile-treasury-document-pdf-analyzed/0/1608488314047?e=1660176000&v=beta&t=xFx7-tUks5aUx-LSugAZY8HzuWU_jBDs5k3pfciam3E"],
-            "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/bike-and-jig.jpeg?raw=true"]
-        },
-        {
-            "_id": 1,
             "title": "Lifecycle Testing Machine",
             "description": "Machine for conducting fatigue testing on chairs",
-            "skills": "SolidWorks, Ansys, FEA, Machining, DFM, DFA, Arduino",
-            "info": ["Project completed during co-op term at UWaterloo as an R&D Engineer Intern"],
+            "skills": "Computer-Aided Design (CAD), Finite-element Analysis (FEA), Design For Manufacturing (DFM), Design For Assembly (DFA), Machining, SolidWorks, Ansys, Arduino, Breadboarding",
+            "info": ["Project completed during co-op term at University of Waterloo working as Research & Development Engineer Intern",
+                    "Built lifecycle chair testing machine by programming and wiring automation controls using Arduino"],
             "buttons": ["Video"],
             "links": ["https://www.youtube.com/shorts/iL7_8Z-cFmI"],
             "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/lifecycle-machine.jpeg?raw=true"]
+        },
+        {
+            "_id": 1,
+            "title": "Bike Frame & Welding Jig",
+            "description": "Engineering a bike frame from scratch",
+            "skills": "Computer-Aided Design (CAD), Finite-element Analysis (FEA), Design For Manufacturing (DFM), Design For Assembly (DFA), Geometric Dimensioning & Tolerancing (GD&T), Machining, SolidWorks, AutoCAD, Ansys",
+            "info": ["Project completed during co-op term at University of Waterloo working as Research & Development Engineer Intern",
+                    "Led the design, construction, and analysis of steel bike frame and welding jig from scratch",
+                    "Performed finite-element analysis on bike frame to ensure safety factor above 3",
+                    "Designed and built adjustable jig to assemble tubes with high precision for welding"],
+            "buttons": ["Report1", "Report2"],
+            "links": ["https://media-exp1.licdn.com/dms/document/C4E2DAQGmtS1RDddE-A/profile-treasury-document-pdf-analyzed/0/1608487555857?e=1660176000&v=beta&t=D1TYJoxxKPO6dhZkxYGURQSiEPJpXaZ7RF8pE4XOHV4", "https://media-exp1.licdn.com/dms/document/C4E2DAQG5VG7id1bMSA/profile-treasury-document-pdf-analyzed/0/1608488314047?e=1660176000&v=beta&t=xFx7-tUks5aUx-LSugAZY8HzuWU_jBDs5k3pfciam3E"],
+            "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/bike-and-jig.jpeg?raw=true"]
         }
     ],
 
     "experience": [
         {
+            "_id": "3",
             "company": "ELL Technologies",
             "jobTitle": "Software Developer Intern",
             "meta": "May 2022 - Aug 2022 • Toronto, Canada",
@@ -95,12 +101,13 @@
                     "Wrote automation scripts in Python and JavaScript to minify file sizes by an average of 65%",
                     "Implemented asynchronous requests to improve loading speeds of 30+ lesson templates",
                     "Developed user interface and educational games for iOS/Android application using Flutter and Dart",
-                    "Integrated RESTful APIs to load JSON user configuration and course data into frontend",
+                    "Integrated RESTful APIs to load backend user configuration and course data into frontend",
                     "Tested software for bugs and operating speed, fixed bugs, and documented processes on Jira"],
             "buttons": [],
             "links": []
         },
         {
+            "_id": "2",
             "company": "Toyota Motors",
             "jobTitle": "Facilities Engineer Intern",
             "meta": "May 2021 - Aug 2021 • Cambridge, Canada",
@@ -114,6 +121,7 @@
             "links": []
         },
         {
+            "_id": "1",
             "company": "University of Waterloo",
             "jobTitle": "Research & Development Engineer Intern",
             "meta": "Sep 2020 - Dec 2020 • Waterloo, Canada",

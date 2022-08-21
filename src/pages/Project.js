@@ -51,9 +51,15 @@ const Project = (props) => {
         {buttons}
       </Box>
 
-      <Carousel dark interval={null}>
-        {carouselItems}
-      </Carousel>
+      {props.images.length === 1 ? (
+        <Carousel dark interval={null} controls={false} indicators={false}>
+          {carouselItems}
+        </Carousel>
+      ) : (
+        <Carousel dark interval={null}>
+          {carouselItems}
+        </Carousel>
+      )}
 
       <Typography variant="h3" color="inherit" sx={{ mb: 1, mt: 3, fontWeight: "bold", fontSize: { xs: 26, sm: 30, md: 30, lg: 36, xl: 36 } }}>
         Skills
