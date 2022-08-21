@@ -4,7 +4,7 @@ import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import IconButton from "@mui/material/IconButton";
 import { styled } from "@mui/material/styles";
-import Card from "../components/Card";
+import ExperienceCard from "../components/ExperienceCard";
 import config from "../config.json";
 
 import firstImage from "../images/ell-logo.png";
@@ -16,7 +16,7 @@ const imageArray = [firstImage, secondImage, thirdImage];
 const Experience = () => {
   const experiences = config.experience.map((experience, index) => {
     return (
-      <Card
+      <ExperienceCard
         className="experience-card"
         title={experience.company}
         heading={experience.jobTitle}
