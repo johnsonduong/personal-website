@@ -86,9 +86,11 @@ function Navbar(props) {
       <AppBar position="static" component="nav" sx={{ backgroundColor: "transparent", boxShadow: 0, pt: 4, mb: 10 }}>
         <Container disableGutters maxWidth="lg" sx={{ border: "none" }}>
           <Toolbar sx={{ display: "flex", justifyContent: "space-between", color: "black" }}>
-            <Typography variant="h5" color="initial" fontWeight="bold" sx={{ fontSize: { xs: 15, sm: 20, md: 20, lg: 24, xl: 24 } }}>
-              {"<jduong/>"}
-            </Typography>
+            <a href="/home" style={{ textDecoration: "none" }}>
+              <Typography variant="h5" color="initial" fontWeight="bold" sx={{ fontSize: { xs: 15, sm: 20, md: 20, lg: 24, xl: 24 } }}>
+                {"<jduong/>"}
+              </Typography>
+            </a>
             <Box sx={{ display: { xs: "none", sm: "none", md: "flex" }, justifyContent: "space-evenly" }}>
               {pages.map((page) => (
                 <NavButton variant="contained" key={page} onClick={handleNav} sx={{ mx: 0.5, backgroundColor: `${location.pathname === `/${page}` && "black"}`, color: `${location.pathname === `/${page}` && "white"}` }}>
