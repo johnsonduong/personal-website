@@ -23,7 +23,7 @@ const ProjectCard = (props) => {
       onMouseOver={() => setShowInfo(true)}
       onMouseOut={() => setShowInfo(false)}
     >
-      <a style={{ display: "inline-block", width: "100%", backgroundColor: "white", textDecoration: "none", color: "black" }} href="/">
+      <a style={{ display: "inline-block", width: "100%", backgroundColor: "white", textDecoration: "none", color: "black" }} href="">
         <Box sx={{ display: "flex", alignItems: "center", justifyContent: "space-between", width: "100%", flexGrow: 1 }}>
           <Box sx={{ py: 5, pl: 8 }}>
             <Typography variant="h3" color="inherit" sx={{ fontWeight: "bold", fontSize: { xs: 30, sm: 36, md: 36, lg: 40, xl: 40 } }}>

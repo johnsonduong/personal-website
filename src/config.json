@@ -30,7 +30,7 @@
                     "Implemented client-side data validation for contact form before sending to Cloud Firestore database"],
             "buttons": ["GitHub"],
             "links": ["https://github.com/johnsonduong/personal-website"],
-            "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/personal-website.png?raw=true"]
+            "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/personal-website/image1.gif?raw=true"]
         },
         {
             "_id": 5,
@@ -41,7 +41,7 @@
                     "Integrated event listeners to enable users to manipulate drawing canvas colors, background, and grid"],
             "buttons": ["Live","GitHub"],
             "links": ["https://johnsonduong.github.io/pixart/", "https://github.com/johnsonduong/pixart"],
-            "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/pixart.png?raw=true"]
+            "images": [""]
         },
         {
             "_id": 4,
@@ -53,7 +53,7 @@
                     "Play against computer that randomly generates attacks"],
             "buttons": ["Live","GitHub"],
             "links": ["https://johnsonduong.github.io/rock-paper-scissors/", "https://github.com/johnsonduong/rock-paper-scissors"],
-            "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/rockpaperscissors.png?raw=true"]
+            "images": [""]
         },
         {
             "_id": 3,
@@ -74,7 +74,7 @@
                     "Built lifecycle chair testing machine by programming and wiring automation controls using Arduino"],
             "buttons": ["Video"],
             "links": ["https://www.youtube.com/shorts/iL7_8Z-cFmI"],
-            "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/lifecycle-machine.jpeg?raw=true"]
+            "images": [""]
         },
         {
             "_id": 1,
@@ -87,7 +87,7 @@
                     "Designed and built adjustable jig to assemble tubes with high precision for welding"],
             "buttons": ["Report1", "Report2"],
             "links": ["https://media-exp1.licdn.com/dms/document/C4E2DAQGmtS1RDddE-A/profile-treasury-document-pdf-analyzed/0/1608487555857?e=1660176000&v=beta&t=D1TYJoxxKPO6dhZkxYGURQSiEPJpXaZ7RF8pE4XOHV4", "https://media-exp1.licdn.com/dms/document/C4E2DAQG5VG7id1bMSA/profile-treasury-document-pdf-analyzed/0/1608488314047?e=1660176000&v=beta&t=xFx7-tUks5aUx-LSugAZY8HzuWU_jBDs5k3pfciam3E"],
-            "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/bike-and-jig.jpeg?raw=true"]
+            "images": [""]
         }
     ],
 
