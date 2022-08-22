@@ -38,7 +38,7 @@ export default function Footer() {
           </a>
         </OverlayTrigger>
         <OverlayTrigger placement="top" overlay={renderTooltip2}>
-          <a href="https://www.linkedin.com/in/johnsonduong/" type="button" target="_blank" rel="noreferrer" style={{ marginRight: 5 }}>
+          <a href="https://linkedin.com/in/johnsonduong/" type="button" target="_blank" rel="noreferrer" style={{ marginRight: 5 }}>
             <SocialIcon className="social-icon" src="https://img.icons8.com/ios-glyphs/30/000000/linkedin-2--v1.png" />
           </a>
         </OverlayTrigger>

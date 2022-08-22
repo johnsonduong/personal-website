@@ -47,6 +47,10 @@ const ProjectCard = (props) => {
                   boxShadow: "none",
                   backgroundColor: "black",
                   color: "white",
+                  "&:hover": {
+                    backgroundColor: "black",
+                    color: "white",
+                  },
                 }}
               >
                 Explore
@@ -61,15 +65,15 @@ const ProjectCard = (props) => {
                   border: "solid black 3px",
                   fontWeight: "bold",
                   boxShadow: "none",
-                  color: "black",
                   backgroundColor: "white",
+                  color: "black",
                 }}
               >
                 Explore
               </Button>
             )}
           </Box>
-          <Box sx={{ width: 550, height: 400, backgroundImage: props.images.length > 1 ? `url(${props.images[1]})` : `url(${props.images[0]})`, backgroundSize: "cover", backgroundPosition: "center" }}></Box>
+          <Box sx={{ width: 550, height: 400, backgroundImage: `url(${props.images[props.preview]})`, backgroundSize: "cover", backgroundPosition: "center" }}></Box>
         </Box>
       </a>
     </Container>

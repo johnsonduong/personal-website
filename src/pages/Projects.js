@@ -9,7 +9,7 @@ import config from "../config.json";
 
 const Projects = () => {
   const projects = config.projects.map((project, index) => {
-    return <ProjectCard id={project._id} title={project.title} heading={project.description} skills={project.skills} info={project.info} buttons={project.buttons} links={project.links} images={project.images} />;
+    return <ProjectCard id={project._id} title={project.title} heading={project.description} skills={project.skills} info={project.info} buttons={project.buttons} links={project.links} images={project.images} preview={project.preview} />;
   });
 
   return (
