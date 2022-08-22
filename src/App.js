@@ -45,7 +45,7 @@ const App = () => {
   return (
     <ThemeProvider theme={theme}>
       <div className="App">
-        <AnimatedCursor innerSize={8} outerSize={25} color="50, 50, 50" outerAlpha={0.3} innerScale={0.7} outerScale={3} />
+        {/* <AnimatedCursor innerSize={8} outerSize={25} color="50, 50, 50" outerAlpha={0.3} innerScale={0.7} outerScale={3} /> */}
         <Navbar currentPage={currentPage} />
         <Routes>
           <Route path="/home" element={<Home />} />

@@ -69,7 +69,7 @@ const ProjectCard = (props) => {
               </Button>
             )}
           </Box>
-          <Box sx={{ width: 550, height: 400, backgroundImage: `url(${props.images[0]})`, backgroundSize: "cover", backgroundPosition: "center" }}></Box>
+          <Box sx={{ width: 550, height: 400, backgroundImage: props.images.length > 1 ? `url(${props.images[1]})` : `url(${props.images[0]})`, backgroundSize: "cover", backgroundPosition: "center" }}></Box>
         </Box>
       </a>
     </Container>

@@ -30,7 +30,8 @@
                     "Implemented client-side data validation for contact form before sending to Cloud Firestore database"],
             "buttons": ["GitHub"],
             "links": ["https://github.com/johnsonduong/personal-website"],
-            "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/personal-website/image1.gif?raw=true"]
+            "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/personal-website/image1.gif?raw=true",
+                        "https://github.com/johnsonduong/personal-website/blob/main/src/images/personal-website/image2.png?raw=true"]
         },
         {
             "_id": 5,
@@ -41,7 +42,8 @@
                     "Integrated event listeners to enable users to manipulate drawing canvas colors, background, and grid"],
             "buttons": ["Live","GitHub"],
             "links": ["https://johnsonduong.github.io/pixart/", "https://github.com/johnsonduong/pixart"],
-            "images": [""]
+            "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/pixart/Image1.gif?raw=true",
+                        "https://github.com/johnsonduong/personal-website/blob/main/src/images/pixart/image2.png?raw=true"]
         },
         {
             "_id": 4,
@@ -53,7 +55,8 @@
                     "Play against computer that randomly generates attacks"],
             "buttons": ["Live","GitHub"],
             "links": ["https://johnsonduong.github.io/rock-paper-scissors/", "https://github.com/johnsonduong/rock-paper-scissors"],
-            "images": [""]
+            "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/rockpaperscissors/image1.gif?raw=true",
+                        "https://github.com/johnsonduong/personal-website/blob/main/src/images/rockpaperscissors/image2.png?raw=true"]
         },
         {
             "_id": 3,
@@ -63,7 +66,7 @@
             "info": ["Created silly mock landing page for fictitious business to gain HTML and CSS experience"],
             "buttons": ["Live","GitHub"],
             "links": ["https://johnsonduong.github.io/monkey-business-landing-page/", "https://github.com/johnsonduong/monkey-business-landing-page"],
-            "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/monkey-business.png?raw=true"]
+            "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/monkey-business/monkey-business.png?raw=true"]
         },
         {
             "_id": 2,
