@@ -83,7 +83,7 @@
                     "Built lifecycle chair testing machine by programming and wiring automation controls using Arduino"],
             "buttons": ["Video"],
             "links": ["https://www.youtube.com/shorts/iL7_8Z-cFmI"],
-            "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/lifecycle-machine/image1.webm?raw=true",
+            "images": [
                     "https://github.com/johnsonduong/personal-website/blob/main/src/images/lifecycle-machine/image2.jpg?raw=true",
                     "https://github.com/johnsonduong/personal-website/blob/main/src/images/lifecycle-machine/image3.jpg?raw=true",
                     "https://github.com/johnsonduong/personal-website/blob/main/src/images/lifecycle-machine/image4.jpg?raw=true",
