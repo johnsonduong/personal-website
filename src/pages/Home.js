@@ -15,7 +15,7 @@ const Home = () => {
               {"Johnson Duong"}
             </Typography>
             <Typography variant="h4" component="h1" color="initial" sx={{ fontWeight: "bold", mb: 0, px: 20, fontSize: { xs: 20, sm: 20, md: 25, lg: 30, xl: 35 } }}>
-              <Typed strings={["Software Developer", "Computer Engineering @ UWaterloo", "Professional Googler", "Gym Rat", "Music Lover", "Finance Nerd"]} typeSpeed={40} backSpeed={50} backDelay={1000} loop />
+              <Typed strings={["Software Developer", "Computer Engineering @ UWaterloo", "Professional Googler", "Fitness Freak", "Music Lover", "Finance Nerd"]} typeSpeed={40} backSpeed={50} backDelay={1000} loop />
             </Typography>
           </Box>
         </Box>

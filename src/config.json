@@ -8,7 +8,7 @@
 
     "projects": [
         {
-            "_id": 7,
+            "_id": 9,
             "title": "Lucid Dream Journal",
             "description": "CRUD app for tracking your dreams",
             "skills": "React, Bootstrap, Express, NodeJS, MongoDB, Mongoose",
@@ -23,7 +23,7 @@
             "preview": 0
         },
         {
-            "_id": 6,
+            "_id": 8,
             "title": "Personal Website",
             "description": "My little corner on the internet",
             "skills": "React, MaterialUI, Bootstrap, Firebase, CI/CD, JavaScript, HTML, CSS",
@@ -35,7 +35,7 @@
             "preview": 0
         },
         {
-            "_id": 5,
+            "_id": 7,
             "title": "PixArt",
             "description": "Online pixel art drawing application",
             "skills": "JavaScript, HTML, CSS",
@@ -48,7 +48,7 @@
             "preview": 1
         },
         {
-            "_id": 4,
+            "_id": 6,
             "title": "Rock Paper Scissors",
             "description": "Simple game from everyone's childhood",
             "skills": "JavaScript, HTML, CSS",
@@ -60,6 +60,29 @@
             "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/rockpaperscissors/image1.webm?raw=true",
                         "https://github.com/johnsonduong/personal-website/blob/main/src/images/rockpaperscissors/image2.png?raw=true"],
             "preview": 1
+        },
+        {
+            "_id": 5,
+            "title": "ëyecon",
+            "description": "Modern and responsive mock landing page",
+            "skills": "JavaScript, HTML, SASS",
+            "info": ["Created professional mock landing page for designer glasses online shop",
+                    "Used media queries to make the webpage fully responsive for mobile and desktop"],
+            "buttons": ["Live","GitHub"],
+            "links": ["https://johnsonduong.github.io/eyecon/", "https://github.com/johnsonduong/eyecon"],
+            "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/eyecon/image1.png?raw=true"],
+            "preview": 0
+        },
+        {
+            "_id": 4,
+            "title": "MyDashboard",
+            "description": "Mock admin dashboard",
+            "skills": "HTML, CSS",
+            "info": ["Created static mock admin dashboard to practice using CSS Grid"],
+            "buttons": ["Live","GitHub"],
+            "links": ["https://johnsonduong.github.io/admin-dashboard/", "https://github.com/johnsonduong/admin-dashboard"],
+            "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/my-dashboard/image1.png?raw=true"],
+            "preview": 0
         },
         {
             "_id": 3,
