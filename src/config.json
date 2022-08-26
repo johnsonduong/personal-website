@@ -32,7 +32,7 @@
             "buttons": ["GitHub"],
             "links": ["https://github.com/johnsonduong/personal-website"],
             "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/personal-website/image1.png?raw=true"],
-            "preview": 1
+            "preview": 0
         },
         {
             "_id": 5,
