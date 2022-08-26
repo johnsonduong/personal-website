@@ -31,8 +31,7 @@
                     "Implemented client-side data validation for contact form before sending to Cloud Firestore database"],
             "buttons": ["GitHub"],
             "links": ["https://github.com/johnsonduong/personal-website"],
-            "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/personal-website/image1.gif?raw=true",
-                        "https://github.com/johnsonduong/personal-website/blob/main/src/images/personal-website/image2.png?raw=true"],
+            "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/personal-website/image1.png?raw=true"],
             "preview": 1
         },
         {
@@ -44,7 +43,7 @@
                     "Integrated event listeners to enable users to manipulate drawing canvas colors, background, and grid"],
             "buttons": ["Live","GitHub"],
             "links": ["https://johnsonduong.github.io/pixart/", "https://github.com/johnsonduong/pixart"],
-            "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/pixart/Image1.gif?raw=true",
+            "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/pixart/image1.webm?raw=true",
                         "https://github.com/johnsonduong/personal-website/blob/main/src/images/pixart/image2.png?raw=true"],
             "preview": 1
         },
@@ -58,7 +57,7 @@
                     "Play against computer that randomly generates attacks"],
             "buttons": ["Live","GitHub"],
             "links": ["https://johnsonduong.github.io/rock-paper-scissors/", "https://github.com/johnsonduong/rock-paper-scissors"],
-            "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/rockpaperscissors/image1.gif?raw=true",
+            "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/rockpaperscissors/image1.webm?raw=true",
                         "https://github.com/johnsonduong/personal-website/blob/main/src/images/rockpaperscissors/image2.png?raw=true"],
             "preview": 1
         },

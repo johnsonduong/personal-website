@@ -38,7 +38,7 @@ const Project = (props) => {
     if (item.split(".")[item.split(".").length - 1] === "webm?raw=true") {
       return (
         <Carousel.Item className="carousel-item" style={{ backgroundColor: "black", display: "flex", justifyContent: "center" }} key={index}>
-          <video height={500} width={"auto"} className="d-block" src={item} alt={`Slide ${index + 1}`} autoPlay controls />
+          <video height={500} width={"auto"} className="d-block" src={item} alt={`Slide ${index + 1}`} autoPlay loop muted />
         </Carousel.Item>
       );
     } else {
