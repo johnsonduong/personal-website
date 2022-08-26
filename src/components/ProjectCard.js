@@ -73,7 +73,18 @@ const ProjectCard = (props) => {
               </Button>
             )}
           </Box>
-          <Box sx={{ width: 550, height: 400, backgroundImage: `url(${props.images[props.preview]})`, backgroundSize: "cover", backgroundPosition: "center" }}></Box>
+
+          {/* Allow video previews */}
+          {/* {props.images[props.preview].split(".")[props.images[props.preview].split(".").length - 1] === "webm?raw=true" ? (
+            <Box sx={{ width: 550, height: 400, overflow: "hidden" }}>
+              <video playsinline autoplay muted loop style={{ width: "auto", height: "100%" }}>
+                <source src={props.images[props.preview]} type="video/webm" />
+              </video>
+            </Box>
+          ) : (
+            <Box sx={{ width: 550, height: 400, backgroundImage: `url(${props.images[props.preview]})`, backgroundSize: "cover", backgroundPosition: "center" }} />
+          )} */}
+          <Box sx={{ width: 550, height: 400, backgroundImage: `url(${props.images[props.preview]})`, backgroundSize: "cover", backgroundPosition: "center" }} />
         </Box>
       </a>
     </Container>

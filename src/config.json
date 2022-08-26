@@ -84,13 +84,14 @@
             "buttons": ["Video"],
             "links": ["https://www.youtube.com/shorts/iL7_8Z-cFmI"],
             "images": [
+                    "https://github.com/johnsonduong/personal-website/blob/main/src/images/lifecycle-machine/image1.webm?raw=true",
                     "https://github.com/johnsonduong/personal-website/blob/main/src/images/lifecycle-machine/image2.jpg?raw=true",
                     "https://github.com/johnsonduong/personal-website/blob/main/src/images/lifecycle-machine/image3.jpg?raw=true",
                     "https://github.com/johnsonduong/personal-website/blob/main/src/images/lifecycle-machine/image4.jpg?raw=true",
                     "https://github.com/johnsonduong/personal-website/blob/main/src/images/lifecycle-machine/image5.jpg?raw=true",
                     "https://github.com/johnsonduong/personal-website/blob/main/src/images/lifecycle-machine/image6.jpg?raw=true",
                     "https://github.com/johnsonduong/personal-website/blob/main/src/images/lifecycle-machine/image7.jpg?raw=true"],
-            "preview": 0
+            "preview": 1
         },
         {
             "_id": 1,

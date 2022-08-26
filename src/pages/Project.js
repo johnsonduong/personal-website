@@ -33,11 +33,22 @@ const Project = (props) => {
     </a>
   ));
 
-  const carouselItems = props.images.map((image, index) => (
-    <Carousel.Item className="carousel-item" style={{ backgroundColor: "black" }}>
-      <img height={500} className="d-block" src={image} alt={`Slide ${index + 1}`} />
-    </Carousel.Item>
-  ));
+  const carouselItems = props.images.map((item, index) => {
+    // console.log(item.split(".")[item.split(".").length - 1]);
+    if (item.split(".")[item.split(".").length - 1] === "webm?raw=true") {
+      return (
+        <Carousel.Item className="carousel-item" style={{ backgroundColor: "black", display: "flex", justifyContent: "center" }} key={index}>
+          <video height={500} width={"auto"} className="d-block" src={item} alt={`Slide ${index + 1}`} autoPlay controls />
+        </Carousel.Item>
+      );
+    } else {
+      return (
+        <Carousel.Item className="carousel-item" style={{ backgroundColor: "black" }} key={index}>
+          <img height={500} width={"100%"} className="d-block" src={item} alt={`Slide ${index + 1}`} />
+        </Carousel.Item>
+      );
+    }
+  });
 
   return (
     <Container maxWidth="lg" sx={{ display: "flex", flexDirection: "column", border: "none", flexGrow: 1 }}>
@@ -52,13 +63,11 @@ const Project = (props) => {
       </Box>
 
       {props.images.length === 1 ? (
-        <Carousel dark interval={null} controls={false} indicators={false}>
+        <Carousel interval={null} controls={false} indicators={false}>
           {carouselItems}
         </Carousel>
       ) : (
-        <Carousel dark interval={null}>
-          {carouselItems}
-        </Carousel>
+        <Carousel interval={null}>{carouselItems}</Carousel>
       )}
 
       <Typography variant="h3" color="inherit" sx={{ mb: 1, mt: 3, fontWeight: "bold", fontSize: { xs: 26, sm: 30, md: 30, lg: 36, xl: 36 } }}>
