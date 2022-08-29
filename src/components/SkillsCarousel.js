@@ -48,6 +48,7 @@ const SkillsCarousel = () => {
         <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" label="EXPRESS" />
         <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" label="MONGODB" />
         <TechIcon src="https://img.icons8.com/color/300/000000/google-firebase-console.png" label="FIREBASE" />
+        <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain.svg" label="HEROKU" />
         <TechIcon src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongoose/mongoose.png" label="MONGOOSE" />
         <TechIcon src="https://img.icons8.com/color/300/000000/flutter.png" label="FLUTTER" />
         <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" label="PYTHON" />
