@@ -17,7 +17,7 @@
 
 <p align="center">
   
-<img src="https://github.com/johnsonduong/personal-website/blob/main/src/images/personal-website.png?raw=true" alt="Logo" >
+<img src="https://github.com/johnsonduong/personal-website/blob/main/src/images/personal-website/image1.png?raw=true" >
 </p>                                                                                                                             
                                                                                                                                                       
 ## About The Project
