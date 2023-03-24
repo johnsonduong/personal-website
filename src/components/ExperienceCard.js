@@ -29,7 +29,7 @@ const ExperienceCard = (props) => {
 
   return (
     <Box className={`expcard ${props.className}`}>
-      <Container maxWidth="lg" sx={{ display: "flex", alignItems: "center", minHeight: "500px" }}>
+      <Container maxWidth="lg" sx={{ display: "flex", alignItems: "center", minHeight: "250px" }}>
         <Box sx={{ py: 5, width: 1500, mr: 5 }}>
           <Typography variant="h3" color="inherit" sx={{ mb: 0.5, fontWeight: "bold", fontSize: { xs: 26, sm: 30, md: 30, lg: 36, xl: 36 } }}>
             {props.title}

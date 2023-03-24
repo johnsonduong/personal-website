@@ -154,42 +154,38 @@
 
     "experience": [
         {
+            "_id": "4",
+            "company": "WSP Digital Solutions",
+            "jobTitle": "Full Stack Developer Intern",
+            "meta": "Jan 2023 - Apr 2023 • Markham, Canada",
+            "info": [],
+            "buttons": [],
+            "links": []
+        },
+        {
             "_id": "3",
-            "company": "ELL Technologies",
+            "company": "Everybody Loves Languages",
             "jobTitle": "Software Developer Intern",
             "meta": "May 2022 - Aug 2022 • Toronto, Canada",
-            "info": ["Programmed equipment validation features for learning management system using React",
-                    "Wrote automation scripts in Python and JavaScript to minify file sizes by an average of 65%",
-                    "Implemented asynchronous requests to improve loading speeds of 30+ lesson templates",
-                    "Developed user interface and educational games for iOS/Android application using Flutter and Dart",
-                    "Integrated RESTful APIs to load backend user configuration and course data into frontend",
-                    "Tested software for bugs and operating speed, fixed bugs, and documented processes on Jira"],
+            "info": [],
             "buttons": [],
             "links": []
         },
         {
             "_id": "2",
             "company": "Toyota Motors",
-            "jobTitle": "Facilities Engineer Intern",
+            "jobTitle": "Systems Engineering Developer Intern",
             "meta": "May 2021 - Aug 2021 • Cambridge, Canada",
-            "info": ["Improved efficiency of utility request process by designing virtual portal used by 9 departments", 
-                    "Automated document approval flow and sign-off requests using Microsoft Power Automate", 
-                    "Saved department $14k/year from external cloud services by implementing cheaper alternative", 
-                    "Collected and analyzed quantitative data to create financial and energy models of potential facility installations", 
-                    "Developed countermeasures to reduce 74% of chilled water production expenses using cost-benefit analysis", 
-                    "Presented chilled water production project to senior management using Toyota Business Practice problem-solving model"],
+            "info": [],
             "buttons": [],
             "links": []
         },
         {
             "_id": "1",
             "company": "University of Waterloo",
-            "jobTitle": "Research & Development Engineer Intern",
+            "jobTitle": "Product Development Engineering Intern",
             "meta": "Sep 2020 - Dec 2020 • Waterloo, Canada",
-            "info": ["Built lifecycle chair testing machine by programming and wiring automation controls using Arduino", 
-                    "Led the design, construction, and analysis of steel bike frame and welding jig from scratch", 
-                    "Performed finite-element analysis on bike frame to ensure safety factor above 3",
-                    "Created bottleneck simulator in collaboration with Management Sciences for students to explore productivity principles"],
+            "info": [],
             "buttons": [],
             "links": []
         }
