@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Typed from "react-typed";
-import { makeStyles, useTheme } from "@mui/material";
 
 const Home = () => {
   return (

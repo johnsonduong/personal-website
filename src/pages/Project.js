@@ -1,10 +1,9 @@
-import { React, useState, useEffect } from "react";
+import { React, useEffect } from "react";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import CallMadeIcon from "@mui/icons-material/CallMade";
-import { useNavigate } from "react-router-dom";
 import Carousel from "react-bootstrap/Carousel";
 
 const Project = (props) => {

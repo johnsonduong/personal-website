@@ -1,10 +1,6 @@
 import { React, useState } from "react";
 import Container from "@mui/material/Container";
-import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
-import IconButton from "@mui/material/IconButton";
-import { styled } from "@mui/material/styles";
-import { Grid, TextField, Button, Card, CardContent } from "@mui/material";
 import ContactForm from "../components/ContactForm";
 import { colRef, addDoc } from "../index.js";
 
