@@ -7,12 +7,13 @@ import { styled } from "@mui/material/styles";
 import ExperienceCard from "../components/ExperienceCard";
 import config from "../config.json";
 
+import fifthImage from "../images/relay-logo.png";
 import fourthImage from "../images/wsp-logo.png";
 import thirdImage from "../images/ell-logo.png";
 import secondImage from "../images/toyota-logo.png";
 import firstImage from "../images/uwaterloo-logo.png";
 
-const imageArray = [fourthImage, thirdImage, secondImage, firstImage];
+const imageArray = [fifthImage, fourthImage, thirdImage, secondImage, firstImage];
 
 const Experience = () => {
   const experiences = config.experience.map((experience, index) => {

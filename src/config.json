@@ -1,8 +1,8 @@
 {
     "about": [
         "👋🏻 Hey! I'm Johnson",
-        "😄 Software Developer",
-        "🎓 Computer Engineering 2026 @ University of Waterloo",
+        "😄 Aspiring Software Engineer",
+        "🎓 Computer Engineering @ University of Waterloo",
         "👀 Currently looking for internships"],
 
     "projects": [
@@ -153,9 +153,18 @@
 
     "experience": [
         {
+            "_id": "5",
+            "company": "Relay Financial",
+            "jobTitle": "Software Engineer Intern",
+            "meta": "Sep 2023 - Dec 2023 • Toronto, Canada",
+            "info": [],
+            "buttons": [],
+            "links": []
+        },
+        {
             "_id": "4",
-            "company": "WSP Digital Solutions",
-            "jobTitle": "Full Stack Developer Intern",
+            "company": "WSP",
+            "jobTitle": "Software Engineer Intern",
             "meta": "Jan 2023 - Apr 2023 • Markham, Canada",
             "info": [],
             "buttons": [],
@@ -164,7 +173,7 @@
         {
             "_id": "3",
             "company": "Everybody Loves Languages",
-            "jobTitle": "Software Developer Intern",
+            "jobTitle": "Software Engineer Intern",
             "meta": "May 2022 - Aug 2022 • Toronto, Canada",
             "info": [],
             "buttons": [],
@@ -173,7 +182,7 @@
         {
             "_id": "2",
             "company": "Toyota Motors",
-            "jobTitle": "Systems Engineering Developer Intern",
+            "jobTitle": "Systems Engineer Intern",
             "meta": "May 2021 - Aug 2021 • Cambridge, Canada",
             "info": [],
             "buttons": [],
@@ -182,7 +191,7 @@
         {
             "_id": "1",
             "company": "University of Waterloo",
-            "jobTitle": "Product Development Engineering Intern",
+            "jobTitle": "Product Design Engineer Intern",
             "meta": "Sep 2020 - Dec 2020 • Waterloo, Canada",
             "info": [],
             "buttons": [],
