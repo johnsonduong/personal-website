@@ -38,44 +38,50 @@ const SkillsCarousel = () => {
     ],
   };
 
+  const techIcons = [
+    { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg", label: "PYTHON" },
+    { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg", label: "JAVASCRIPT" },
+    { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg", label: "TYPESCRIPT" },
+    { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg", label: "REACTJS" },
+    { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg", label: "NODEJS" },
+    { src: "https://img.icons8.com/color/300/postgreesql.png", label: "POSTGRESQL" },
+    { src: "https://img.icons8.com/color/300/redis--v1.png", label: "REDIS" },
+    { src: "https://img.icons8.com/color/300/docker.png", label: "DOCKER" },
+    { src: "https://img.icons8.com/color/300/amazon-web-services.png", label: "AWS" },
+    { src: "https://img.icons8.com/external-tal-revivo-color-tal-revivo/300/000000/external-postman-is-the-only-complete-api-development-environment-logo-color-tal-revivo.png", label: "POSTMAN" },
+    { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg", label: "C" },
+    { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg", label: "C++" },
+    { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg", label: "JAVA" },
+    { src: "https://img.icons8.com/color/300/000000/dart.png", label: "DART" },
+    { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg", label: "VUEJS" },
+    { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg", label: "BOOTSTRAP" },
+    { src: "https://img.icons8.com/color/300/000000/material-ui.png", label: "MATERIALUI" },
+    { src: "https://img.icons8.com/color/300/000000/flutter.png", label: "FLUTTER" },
+    { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg", label: "HTML5" },
+    { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg", label: "CSS3" },
+    { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg", label: "SASS" },
+    { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg", label: "EXPRESS" },
+    { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg", label: "MS SQL SERVER" },
+    { src: "https://img.icons8.com/color/300/000000/google-firebase-console.png", label: "FIREBASE" },
+    { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg", label: "MONGODB" },
+    { src: "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongoose/mongoose.png", label: "MONGOOSE" },
+    { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg", label: "GIT" },
+    { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg", label: "BASH" },
+    { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg", label: "LINUX" },
+    { src: "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/300/null/external-development-experience-through-the-native-integrations-of-azure-with-visual-studio-logo-shadow-tal-revivo.png", label: "AZURE DEVOPS" },
+    { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg", label: "JIRA" },
+    { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain.svg", label: "HEROKU" },
+    { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg", label: "MATLAB" },
+    { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg", label: "FIGMA" },
+    { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg", label: "NPM" },
+  ];
+
   return (
     <Container>
       <Slider {...settings}>
-        <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" label="PYTHON" />
-        <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" label="JAVASCRIPT" />
-        <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" label="TYPESCRIPT" />
-        <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" label="REACTJS" />
-        <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" label="NODEJS" />
-        <TechIcon src="https://img.icons8.com/color/300/postgreesql.png" label="POSTGRESQL" />
-        <TechIcon src="https://img.icons8.com/color/300/redis--v1.png" label="REDIS" />
-        <TechIcon src="https://img.icons8.com/color/300/docker.png" label="DOCKER" />
-        <TechIcon src="https://img.icons8.com/color/300/amazon-web-services.png" label="AWS" />
-        <TechIcon src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/300/000000/external-postman-is-the-only-complete-api-development-environment-logo-color-tal-revivo.png" label="POSTMAN" />
-        <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" label="C" />
-        <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" label="C++" />
-        <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" label="JAVA" />
-        <TechIcon src="https://img.icons8.com/color/300/000000/dart.png" label="DART" />
-        <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" label="VUEJS" />
-        <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" label="BOOTSTRAP" />
-        <TechIcon src="https://img.icons8.com/color/300/000000/material-ui.png" label="MATERIALUI" />
-        <TechIcon src="https://img.icons8.com/color/300/000000/flutter.png" label="FLUTTER" />
-        <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" label="HTML5" />
-        <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" label="CSS3" />
-        <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" label="SASS" />
-        <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" label="EXPRESS" />
-        <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" label="MS SQL SERVER" />
-        <TechIcon src="https://img.icons8.com/color/300/000000/google-firebase-console.png" label="FIREBASE" />
-        <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" label="MONGODB" />
-        <TechIcon src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongoose/mongoose.png" label="MONGOOSE" />
-        <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" label="GIT" />
-        <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" label="BASH" />
-        <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" label="LINUX" />
-        <TechIcon src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/300/null/external-development-experience-through-the-native-integrations-of-azure-with-visual-studio-logo-shadow-tal-revivo.png" label="AZURE DEVOPS" />
-        <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" label="JIRA" />
-        <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain.svg" label="HEROKU" />
-        <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" label="MATLAB" />
-        <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" label="FIGMA" />
-        <TechIcon src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" label="NPM" />
+        {techIcons.map((tech, index) => (
+          <TechIcon key={index} {...tech} />
+        ))}
       </Slider>
     </Container>
   );
