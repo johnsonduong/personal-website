@@ -1,201 +1,344 @@
 {
-    "about": [
-        "👋🏻 Hey! I'm Johnson",
-        "😄 Aspiring Software Engineer",
-        "🎓 Computer Engineering @ University of Waterloo",
-        "👀 Currently looking for internships"],
+  "about": ["👋🏻 Hey! I'm Johnson", "😄 Aspiring Software Engineer", "🎓 Computer Engineering @ University of Waterloo", "👀 Currently looking for internships"],
 
-    "projects": [
-        {
-            "_id": 9,
-            "title": "Lucid Dream Journal",
-            "description": "CRUD app for tracking your dreams",
-            "skills": "React, Bootstrap, Express, NodeJS, MongoDB, Mongoose, Heroku, bcrypt",
-            "info": ["Built CRUD web app that allows users to keep record of their dreams using Node and Express",
-                    "Created RESTful APIs that serve data from MongoDB database to React frontend based on user actions",
-                    "Programmed security features by hashing passwords using bcrypt and implementing JWT Authentication",
-                    "Developed models by using Mongoose to create schemas and provide data validation",
-                    "Implemented state management using React Context API to minimize HTTP requests to backend",
-                    "Deployed application using Heroku (PaaS) to host frontend and backend server"],
-            "buttons": ["Live", "GitHub"],
-            "links": ["https://lucid-dream-journal.herokuapp.com/", "https://github.com/johnsonduong/lucid"],
-            "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/lucid/image1.png?raw=true",
-                    "https://github.com/johnsonduong/personal-website/blob/main/src/images/lucid/image2.png?raw=true",
-                    "https://github.com/johnsonduong/personal-website/blob/main/src/images/lucid/image3.png?raw=true",
-                    "https://github.com/johnsonduong/personal-website/blob/main/src/images/lucid/image4.png?raw=true",
-                    "https://github.com/johnsonduong/personal-website/blob/main/src/images/lucid/image5.png?raw=true",
-                    "https://github.com/johnsonduong/personal-website/blob/main/src/images/lucid/image6.png?raw=true"],
-            "preview": 0
-        },
-        {
-            "_id": 8,
-            "title": "Personal Website",
-            "description": "My little corner on the internet",
-            "skills": "React, MaterialUI, Bootstrap, Firebase, CI/CD, JavaScript, HTML, CSS",
-            "info": ["Developed React and Firebase website with CI/CD pipeline for auto-deployments using GitHub Actions",
-                    "Implemented client-side data validation for contact form before sending to Cloud Firestore database"],
-            "buttons": ["GitHub"],
-            "links": ["https://github.com/johnsonduong/personal-website"],
-            "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/personal-website/image1.png?raw=true"],
-            "preview": 0
-        },
-        {
-            "_id": 7,
-            "title": "PixArt",
-            "description": "Online pixel art drawing application",
-            "skills": "JavaScript, HTML, CSS",
-            "info": ["Programmed online tool for drawing pixel art using vanilla JavaScript, HTML, and CSS",
-                    "Integrated event listeners to enable users to manipulate drawing canvas colors, background, and grid"],
-            "buttons": ["Live","GitHub"],
-            "links": ["https://johnsonduong.github.io/pixart/", "https://github.com/johnsonduong/pixart"],
-            "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/pixart/image1.webm?raw=true",
-                        "https://github.com/johnsonduong/personal-website/blob/main/src/images/pixart/image2.png?raw=true"],
-            "preview": 1
-        },
-        {
-            "_id": 6,
-            "title": "Rock Paper Scissors",
-            "description": "Simple game from everyone's childhood",
-            "skills": "JavaScript, HTML, CSS",
-            "info": ["Created simple game of rock paper scissors as beginner introduction to JavaScript",
-                    "First player to score of 5 wins the game",
-                    "Play against computer that randomly generates attacks"],
-            "buttons": ["Live","GitHub"],
-            "links": ["https://johnsonduong.github.io/rock-paper-scissors/", "https://github.com/johnsonduong/rock-paper-scissors"],
-            "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/rockpaperscissors/image1.webm?raw=true",
-                        "https://github.com/johnsonduong/personal-website/blob/main/src/images/rockpaperscissors/image2.png?raw=true"],
-            "preview": 1
-        },
-        {
-            "_id": 5,
-            "title": "ëyecon",
-            "description": "Modern and responsive mock landing page",
-            "skills": "JavaScript, HTML, SASS",
-            "info": ["Created professional mock landing page for designer glasses online shop",
-                    "Used media queries to make the webpage fully responsive for mobile and desktop"],
-            "buttons": ["Live","GitHub"],
-            "links": ["https://johnsonduong.github.io/eyecon/", "https://github.com/johnsonduong/eyecon"],
-            "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/eyecon/image1.png?raw=true"],
-            "preview": 0
-        },
-        {
-            "_id": 4,
-            "title": "MyDashboard",
-            "description": "Mock admin dashboard",
-            "skills": "HTML, CSS",
-            "info": ["Created static mock admin dashboard to practice using CSS Grid"],
-            "buttons": ["Live","GitHub"],
-            "links": ["https://johnsonduong.github.io/admin-dashboard/", "https://github.com/johnsonduong/admin-dashboard"],
-            "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/my-dashboard/image1.png?raw=true"],
-            "preview": 0
-        },
-        {
-            "_id": 3,
-            "title": "Monkey Business",
-            "description": "Silly mock landing page",
-            "skills": "HTML, CSS",
-            "info": ["Created silly mock landing page for fictitious business to gain HTML and CSS experience"],
-            "buttons": ["Live","GitHub"],
-            "links": ["https://johnsonduong.github.io/monkey-business-landing-page/", "https://github.com/johnsonduong/monkey-business-landing-page"],
-            "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/monkey-business/image1.png?raw=true",
-                        "https://github.com/johnsonduong/personal-website/blob/main/src/images/monkey-business/image2.png?raw=true"],
-            "preview": 0
-        },
-        {
-            "_id": 2,
-            "title": "Lifecycle Testing Machine",
-            "description": "Machine for conducting fatigue testing on chairs",
-            "skills": "Computer-Aided Design (CAD), Finite-element Analysis (FEA), Design For Manufacturing (DFM), Design For Assembly (DFA), Machining, SolidWorks, Ansys, Arduino, Breadboarding",
-            "info": ["Project completed during co-op term at University of Waterloo working as Research & Development Engineer Intern",
-                    "Built lifecycle chair testing machine by programming and wiring automation controls using Arduino"],
-            "buttons": ["Video"],
-            "links": ["https://www.youtube.com/shorts/iL7_8Z-cFmI"],
-            "images": [
-                    "https://github.com/johnsonduong/personal-website/blob/main/src/images/lifecycle-machine/image1.webm?raw=true",
-                    "https://github.com/johnsonduong/personal-website/blob/main/src/images/lifecycle-machine/image2.jpg?raw=true",
-                    "https://github.com/johnsonduong/personal-website/blob/main/src/images/lifecycle-machine/image3.jpg?raw=true",
-                    "https://github.com/johnsonduong/personal-website/blob/main/src/images/lifecycle-machine/image4.jpg?raw=true",
-                    "https://github.com/johnsonduong/personal-website/blob/main/src/images/lifecycle-machine/image5.jpg?raw=true",
-                    "https://github.com/johnsonduong/personal-website/blob/main/src/images/lifecycle-machine/image6.jpg?raw=true",
-                    "https://github.com/johnsonduong/personal-website/blob/main/src/images/lifecycle-machine/image7.jpg?raw=true"],
-            "preview": 1
-        },
-        {
-            "_id": 1,
-            "title": "Bike Frame & Welding Jig",
-            "description": "Engineering steel bike frame from scratch",
-            "skills": "Computer-Aided Design (CAD), Finite-element Analysis (FEA), Design For Manufacturing (DFM), Design For Assembly (DFA), Geometric Dimensioning & Tolerancing (GD&T), Machining, SolidWorks, AutoCAD, Ansys",
-            "info": ["Project completed during co-op term at University of Waterloo working as Research & Development Engineer Intern",
-                    "Led the design, construction, and analysis of steel bike frame and welding jig from scratch",
-                    "Performed finite-element analysis on bike frame to ensure safety factor above 3",
-                    "Designed and built adjustable jig to assemble tubes with high precision for welding"],
-            "buttons": ["Report1", "Report2"],
-            "links": ["https://nbviewer.org/github/johnsonduong/personal-website/blob/main/src/pdfs/The%20Bike%20Frame%20Design%20and%20Manufacturing.pdf",
-                    "https://nbviewer.org/github/johnsonduong/personal-website/blob/main/src/pdfs/The%20Jig%20Design.pdf"],
-            "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/bike-and-jig/image1.png?raw=true",
-                        "https://github.com/johnsonduong/personal-website/blob/main/src/images/bike-and-jig/image2.jpg?raw=true",
-                        "https://github.com/johnsonduong/personal-website/blob/main/src/images/bike-and-jig/image3.png?raw=true",
-                        "https://github.com/johnsonduong/personal-website/blob/main/src/images/bike-and-jig/image4.jpg?raw=true",
-                        "https://github.com/johnsonduong/personal-website/blob/main/src/images/bike-and-jig/image5.png?raw=true",
-                        "https://github.com/johnsonduong/personal-website/blob/main/src/images/bike-and-jig/image6.jpg?raw=true",
-                        "https://github.com/johnsonduong/personal-website/blob/main/src/images/bike-and-jig/image7.png?raw=true",
-                        "https://github.com/johnsonduong/personal-website/blob/main/src/images/bike-and-jig/image8.jpg?raw=true",
-                        "https://github.com/johnsonduong/personal-website/blob/main/src/images/bike-and-jig/image9.png?raw=true",
-                        "https://github.com/johnsonduong/personal-website/blob/main/src/images/bike-and-jig/image10.png?raw=true",
-                        "https://github.com/johnsonduong/personal-website/blob/main/src/images/bike-and-jig/image11.jpg?raw=true",
-                        "https://github.com/johnsonduong/personal-website/blob/main/src/images/bike-and-jig/image12.png?raw=true",
-                        "https://github.com/johnsonduong/personal-website/blob/main/src/images/bike-and-jig/image13.jpg?raw=true",
-                        "https://github.com/johnsonduong/personal-website/blob/main/src/images/bike-and-jig/image14.jpg?raw=true",
-                        "https://github.com/johnsonduong/personal-website/blob/main/src/images/bike-and-jig/image15.jpg?raw=true"],
-            "preview": 1
-        }
-    ],
+  "skills": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+      "label": "PYTHON"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      "label": "JAVASCRIPT"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      "label": "TYPESCRIPT"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      "label": "REACTJS"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg",
+      "label": "NODEJS"
+    },
+    {
+      "src": "https://img.icons8.com/color/300/postgreesql.png",
+      "label": "POSTGRESQL"
+    },
+    {
+      "src": "https://img.icons8.com/color/300/redis--v1.png",
+      "label": "REDIS"
+    },
+    {
+      "src": "https://img.icons8.com/color/300/docker.png",
+      "label": "DOCKER"
+    },
+    {
+      "src": "https://img.icons8.com/color/300/amazon-web-services.png",
+      "label": "AWS"
+    },
+    {
+      "src": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/300/000000/external-postman-is-the-only-complete-api-development-environment-logo-color-tal-revivo.png",
+      "label": "POSTMAN"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg",
+      "label": "C"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
+      "label": "C++"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+      "label": "JAVA"
+    },
+    {
+      "src": "https://img.icons8.com/color/300/000000/dart.png",
+      "label": "DART"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
+      "label": "VUEJS"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+      "label": "BOOTSTRAP"
+    },
+    {
+      "src": "https://img.icons8.com/color/300/000000/material-ui.png",
+      "label": "MATERIALUI"
+    },
+    {
+      "src": "https://img.icons8.com/color/300/000000/flutter.png",
+      "label": "FLUTTER"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      "label": "HTML5"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      "label": "CSS3"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+      "label": "SASS"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+      "label": "EXPRESS"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg",
+      "label": "MS SQL SERVER"
+    },
+    {
+      "src": "https://img.icons8.com/color/300/000000/google-firebase-console.png",
+      "label": "FIREBASE"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+      "label": "MONGODB"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongoose/mongoose.png",
+      "label": "MONGOOSE"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+      "label": "GIT"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg",
+      "label": "BASH"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",
+      "label": "LINUX"
+    },
+    {
+      "src": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/300/null/external-development-experience-through-the-native-integrations-of-azure-with-visual-studio-logo-shadow-tal-revivo.png",
+      "label": "AZURE DEVOPS"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg",
+      "label": "JIRA"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain.svg",
+      "label": "HEROKU"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg",
+      "label": "MATLAB"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+      "label": "FIGMA"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg",
+      "label": "NPM"
+    }
+  ],
 
-    "experience": [
-        {
-            "_id": "5",
-            "company": "Relay Financial",
-            "jobTitle": "Software Engineer Intern",
-            "meta": "Sep 2023 - Dec 2023 • Toronto, Canada",
-            "info": [],
-            "buttons": [],
-            "links": []
-        },
-        {
-            "_id": "4",
-            "company": "WSP",
-            "jobTitle": "Software Engineer Intern",
-            "meta": "Jan 2023 - Apr 2023 • Markham, Canada",
-            "info": [],
-            "buttons": [],
-            "links": []
-        },
-        {
-            "_id": "3",
-            "company": "Everybody Loves Languages",
-            "jobTitle": "Software Engineer Intern",
-            "meta": "May 2022 - Aug 2022 • Toronto, Canada",
-            "info": [],
-            "buttons": [],
-            "links": []
-        },
-        {
-            "_id": "2",
-            "company": "Toyota Motors",
-            "jobTitle": "Systems Engineer Intern",
-            "meta": "May 2021 - Aug 2021 • Cambridge, Canada",
-            "info": [],
-            "buttons": [],
-            "links": []
-        },
-        {
-            "_id": "1",
-            "company": "University of Waterloo",
-            "jobTitle": "Product Design Engineer Intern",
-            "meta": "Sep 2020 - Dec 2020 • Waterloo, Canada",
-            "info": [],
-            "buttons": [],
-            "links": []
-        }
-    ]
+  "projects": [
+    {
+      "_id": 9,
+      "title": "Lucid Dream Journal",
+      "description": "CRUD app for tracking your dreams",
+      "skills": "React, Bootstrap, Express, NodeJS, MongoDB, Mongoose, Heroku, bcrypt",
+      "info": [
+        "Built CRUD web app that allows users to keep record of their dreams using Node and Express",
+        "Created RESTful APIs that serve data from MongoDB database to React frontend based on user actions",
+        "Programmed security features by hashing passwords using bcrypt and implementing JWT Authentication",
+        "Developed models by using Mongoose to create schemas and provide data validation",
+        "Implemented state management using React Context API to minimize HTTP requests to backend",
+        "Deployed application using Heroku (PaaS) to host frontend and backend server"
+      ],
+      "buttons": ["Live", "GitHub"],
+      "links": ["https://lucid-dream-journal.herokuapp.com/", "https://github.com/johnsonduong/lucid"],
+      "images": [
+        "https://github.com/johnsonduong/personal-website/blob/main/src/images/lucid/image1.png?raw=true",
+        "https://github.com/johnsonduong/personal-website/blob/main/src/images/lucid/image2.png?raw=true",
+        "https://github.com/johnsonduong/personal-website/blob/main/src/images/lucid/image3.png?raw=true",
+        "https://github.com/johnsonduong/personal-website/blob/main/src/images/lucid/image4.png?raw=true",
+        "https://github.com/johnsonduong/personal-website/blob/main/src/images/lucid/image5.png?raw=true",
+        "https://github.com/johnsonduong/personal-website/blob/main/src/images/lucid/image6.png?raw=true"
+      ],
+      "preview": 0
+    },
+    {
+      "_id": 8,
+      "title": "Personal Website",
+      "description": "My little corner on the internet",
+      "skills": "React, MaterialUI, Bootstrap, Firebase, CI/CD, JavaScript, HTML, CSS",
+      "info": ["Developed React and Firebase website with CI/CD pipeline for auto-deployments using GitHub Actions", "Implemented client-side data validation for contact form before sending to Cloud Firestore database"],
+      "buttons": ["GitHub"],
+      "links": ["https://github.com/johnsonduong/personal-website"],
+      "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/personal-website/image1.png?raw=true"],
+      "preview": 0
+    },
+    {
+      "_id": 7,
+      "title": "PixArt",
+      "description": "Online pixel art drawing application",
+      "skills": "JavaScript, HTML, CSS",
+      "info": ["Programmed online tool for drawing pixel art using vanilla JavaScript, HTML, and CSS", "Integrated event listeners to enable users to manipulate drawing canvas colors, background, and grid"],
+      "buttons": ["Live", "GitHub"],
+      "links": ["https://johnsonduong.github.io/pixart/", "https://github.com/johnsonduong/pixart"],
+      "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/pixart/image1.webm?raw=true", "https://github.com/johnsonduong/personal-website/blob/main/src/images/pixart/image2.png?raw=true"],
+      "preview": 1
+    },
+    {
+      "_id": 6,
+      "title": "Rock Paper Scissors",
+      "description": "Simple game from everyone's childhood",
+      "skills": "JavaScript, HTML, CSS",
+      "info": ["Created simple game of rock paper scissors as beginner introduction to JavaScript", "First player to score of 5 wins the game", "Play against computer that randomly generates attacks"],
+      "buttons": ["Live", "GitHub"],
+      "links": ["https://johnsonduong.github.io/rock-paper-scissors/", "https://github.com/johnsonduong/rock-paper-scissors"],
+      "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/rockpaperscissors/image1.webm?raw=true", "https://github.com/johnsonduong/personal-website/blob/main/src/images/rockpaperscissors/image2.png?raw=true"],
+      "preview": 1
+    },
+    {
+      "_id": 5,
+      "title": "ëyecon",
+      "description": "Modern and responsive mock landing page",
+      "skills": "JavaScript, HTML, SASS",
+      "info": ["Created professional mock landing page for designer glasses online shop", "Used media queries to make the webpage fully responsive for mobile and desktop"],
+      "buttons": ["Live", "GitHub"],
+      "links": ["https://johnsonduong.github.io/eyecon/", "https://github.com/johnsonduong/eyecon"],
+      "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/eyecon/image1.png?raw=true"],
+      "preview": 0
+    },
+    {
+      "_id": 4,
+      "title": "MyDashboard",
+      "description": "Mock admin dashboard",
+      "skills": "HTML, CSS",
+      "info": ["Created static mock admin dashboard to practice using CSS Grid"],
+      "buttons": ["Live", "GitHub"],
+      "links": ["https://johnsonduong.github.io/admin-dashboard/", "https://github.com/johnsonduong/admin-dashboard"],
+      "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/my-dashboard/image1.png?raw=true"],
+      "preview": 0
+    },
+    {
+      "_id": 3,
+      "title": "Monkey Business",
+      "description": "Silly mock landing page",
+      "skills": "HTML, CSS",
+      "info": ["Created silly mock landing page for fictitious business to gain HTML and CSS experience"],
+      "buttons": ["Live", "GitHub"],
+      "links": ["https://johnsonduong.github.io/monkey-business-landing-page/", "https://github.com/johnsonduong/monkey-business-landing-page"],
+      "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/monkey-business/image1.png?raw=true", "https://github.com/johnsonduong/personal-website/blob/main/src/images/monkey-business/image2.png?raw=true"],
+      "preview": 0
+    },
+    {
+      "_id": 2,
+      "title": "Lifecycle Testing Machine",
+      "description": "Machine for conducting fatigue testing on chairs",
+      "skills": "Computer-Aided Design (CAD), Finite-element Analysis (FEA), Design For Manufacturing (DFM), Design For Assembly (DFA), Machining, SolidWorks, Ansys, Arduino, Breadboarding",
+      "info": ["Project completed during co-op term at University of Waterloo working as Research & Development Engineer Intern", "Built lifecycle chair testing machine by programming and wiring automation controls using Arduino"],
+      "buttons": ["Video"],
+      "links": ["https://www.youtube.com/shorts/iL7_8Z-cFmI"],
+      "images": [
+        "https://github.com/johnsonduong/personal-website/blob/main/src/images/lifecycle-machine/image1.webm?raw=true",
+        "https://github.com/johnsonduong/personal-website/blob/main/src/images/lifecycle-machine/image2.jpg?raw=true",
+        "https://github.com/johnsonduong/personal-website/blob/main/src/images/lifecycle-machine/image3.jpg?raw=true",
+        "https://github.com/johnsonduong/personal-website/blob/main/src/images/lifecycle-machine/image4.jpg?raw=true",
+        "https://github.com/johnsonduong/personal-website/blob/main/src/images/lifecycle-machine/image5.jpg?raw=true",
+        "https://github.com/johnsonduong/personal-website/blob/main/src/images/lifecycle-machine/image6.jpg?raw=true",
+        "https://github.com/johnsonduong/personal-website/blob/main/src/images/lifecycle-machine/image7.jpg?raw=true",
+        "https://github.com/johnsonduong/personal-website/blob/main/src/images/lifecycle-machine/image8.jpg?raw=true",
+        "https://github.com/johnsonduong/personal-website/blob/main/src/images/lifecycle-machine/image9.jpg?raw=true"
+      ],
+      "preview": 1
+    },
+    {
+      "_id": 1,
+      "title": "Bike Frame & Welding Jig",
+      "description": "Engineering steel bike frame from scratch",
+      "skills": "Computer-Aided Design (CAD), Finite-element Analysis (FEA), Design For Manufacturing (DFM), Design For Assembly (DFA), Geometric Dimensioning & Tolerancing (GD&T), Machining, SolidWorks, AutoCAD, Ansys",
+      "info": [
+        "Project completed during co-op term at University of Waterloo working as Research & Development Engineer Intern",
+        "Led the design, construction, and analysis of steel bike frame and welding jig from scratch",
+        "Performed finite-element analysis on bike frame to ensure safety factor above 3",
+        "Designed and built adjustable jig to assemble tubes with high precision for welding"
+      ],
+      "buttons": ["Report1", "Report2"],
+      "links": [
+        "https://nbviewer.org/github/johnsonduong/personal-website/blob/main/src/pdfs/The%20Bike%20Frame%20Design%20and%20Manufacturing.pdf",
+        "https://nbviewer.org/github/johnsonduong/personal-website/blob/main/src/pdfs/The%20Jig%20Design.pdf"
+      ],
+      "images": [
+        "https://github.com/johnsonduong/personal-website/blob/main/src/images/bike-and-jig/image1.png?raw=true",
+        "https://github.com/johnsonduong/personal-website/blob/main/src/images/bike-and-jig/image2.jpg?raw=true",
+        "https://github.com/johnsonduong/personal-website/blob/main/src/images/bike-and-jig/image3.png?raw=true",
+        "https://github.com/johnsonduong/personal-website/blob/main/src/images/bike-and-jig/image4.jpg?raw=true",
+        "https://github.com/johnsonduong/personal-website/blob/main/src/images/bike-and-jig/image5.png?raw=true",
+        "https://github.com/johnsonduong/personal-website/blob/main/src/images/bike-and-jig/image6.jpg?raw=true",
+        "https://github.com/johnsonduong/personal-website/blob/main/src/images/bike-and-jig/image7.png?raw=true",
+        "https://github.com/johnsonduong/personal-website/blob/main/src/images/bike-and-jig/image8.jpg?raw=true",
+        "https://github.com/johnsonduong/personal-website/blob/main/src/images/bike-and-jig/image9.png?raw=true",
+        "https://github.com/johnsonduong/personal-website/blob/main/src/images/bike-and-jig/image10.png?raw=true",
+        "https://github.com/johnsonduong/personal-website/blob/main/src/images/bike-and-jig/image11.jpg?raw=true",
+        "https://github.com/johnsonduong/personal-website/blob/main/src/images/bike-and-jig/image12.png?raw=true",
+        "https://github.com/johnsonduong/personal-website/blob/main/src/images/bike-and-jig/image13.jpg?raw=true",
+        "https://github.com/johnsonduong/personal-website/blob/main/src/images/bike-and-jig/image14.jpg?raw=true",
+        "https://github.com/johnsonduong/personal-website/blob/main/src/images/bike-and-jig/image15.jpg?raw=true"
+      ],
+      "preview": 1
+    }
+  ],
+
+  "experience": [
+    {
+      "_id": "5",
+      "company": "Relay Financial",
+      "jobTitle": "Software Engineer Intern",
+      "meta": "Sep 2023 - Dec 2023 • Toronto, Canada",
+      "info": [],
+      "buttons": [],
+      "links": []
+    },
+    {
+      "_id": "4",
+      "company": "WSP",
+      "jobTitle": "Software Engineer Intern",
+      "meta": "Jan 2023 - Apr 2023 • Markham, Canada",
+      "info": [],
+      "buttons": [],
+      "links": []
+    },
+    {
+      "_id": "3",
+      "company": "Everybody Loves Languages",
+      "jobTitle": "Software Engineer Intern",
+      "meta": "May 2022 - Aug 2022 • Toronto, Canada",
+      "info": [],
+      "buttons": [],
+      "links": []
+    },
+    {
+      "_id": "2",
+      "company": "Toyota Motors",
+      "jobTitle": "Systems Engineer Intern",
+      "meta": "May 2021 - Aug 2021 • Cambridge, Canada",
+      "info": [],
+      "buttons": [],
+      "links": []
+    },
+    {
+      "_id": "1",
+      "company": "University of Waterloo",
+      "jobTitle": "Product Design Engineer Intern",
+      "meta": "Sep 2020 - Dec 2020 • Waterloo, Canada",
+      "info": [],
+      "buttons": [],
+      "links": []
+    }
+  ]
 }
