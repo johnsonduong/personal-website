@@ -10,7 +10,7 @@
     </p>
 </p>
 <p align="center">
-    <a href="https://johnsonduong.ml" target="_blank">Live Demo</a> •
+    <a href="https://johnsonduong.com" target="_blank">Live Demo</a> •
   <a href="#about-the-project">About The Project</a> •
   <a href="#tech-stack">Tech Stack</a>
 </p>  
