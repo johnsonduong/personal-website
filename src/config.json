@@ -146,6 +146,21 @@
 
   "projects": [
     {
+      "_id": 10,
+      "title": "UW PM Club Website",
+      "description": "A website for the UWaterloo Product Management club",
+      "skills": "Project Management, React, Bootstrap",
+      "info": ["Spearheaded the launch of uwaterloopm.com leading a team of 6 developers, orchestrating feature planning, technical oversight, and project delivery, significantly boosting the club’s online presence and outreach"],
+      "buttons": ["Live"],
+      "links": ["https://uwaterloopm.com/"],
+      "images": [
+        "https://github.com/johnsonduong/personal-website/blob/main/src/images/uwpm/uwpm-home-page.webm?raw=true",
+        "https://github.com/johnsonduong/personal-website/blob/main/src/images/uwpm/uwpm-about-page.webm?raw=true",
+        "https://github.com/johnsonduong/personal-website/blob/main/src/images/uwpm/uwpm-events-page.webm?raw=true"
+      ],
+      "preview": 0
+    },
+    {
       "_id": 9,
       "title": "Lucid Dream Journal",
       "description": "CRUD app for tracking your dreams",
