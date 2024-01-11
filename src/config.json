@@ -153,13 +153,8 @@
       "info": ["Spearheaded the launch of uwaterloopm.com leading a team of 6 developers, orchestrating feature planning, technical oversight, and project delivery, significantly boosting the club’s online presence and outreach"],
       "buttons": ["Live"],
       "links": ["https://uwaterloopm.com/"],
-      "images": [
-        "https://github.com/johnsonduong/personal-website/blob/main/src/images/uwpm/uwpm-home-page.webm?raw=true",
-        "https://github.com/johnsonduong/personal-website/blob/main/src/images/uwpm/uwpm-about-page.webm?raw=true",
-        "https://github.com/johnsonduong/personal-website/blob/main/src/images/uwpm/uwpm-events-page.webm?raw=true",
-        "https://github.com/johnsonduong/personal-website/blob/main/src/images/uwpm/uwpm-logo.png?raw=true"
-      ],
-      "preview": 3
+      "images": ["https://github.com/johnsonduong/personal-website/blob/main/src/images/uwpm/uwpm-website-demo.webm?raw=true", "https://github.com/johnsonduong/personal-website/blob/main/src/images/uwpm/uwpm-logo.png?raw=true"],
+      "preview": 1
     },
     {
       "_id": 9,
