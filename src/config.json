@@ -156,9 +156,10 @@
       "images": [
         "https://github.com/johnsonduong/personal-website/blob/main/src/images/uwpm/uwpm-home-page.webm?raw=true",
         "https://github.com/johnsonduong/personal-website/blob/main/src/images/uwpm/uwpm-about-page.webm?raw=true",
-        "https://github.com/johnsonduong/personal-website/blob/main/src/images/uwpm/uwpm-events-page.webm?raw=true"
+        "https://github.com/johnsonduong/personal-website/blob/main/src/images/uwpm/uwpm-events-page.webm?raw=true",
+        "https://github.com/johnsonduong/personal-website/blob/main/src/images/uwpm/uwpm-logo.png?raw=true"
       ],
-      "preview": 0
+      "preview": 3
     },
     {
       "_id": 9,
